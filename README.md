@@ -49,7 +49,7 @@ Every repository under [github.com/rosaldo](https://github.com/rosaldo) that is 
 | google-skills | https://github.com/rosaldo/google-skills | Agent Skills for Google products and technologies | [README](https://github.com/rosaldo/google-skills/blob/main/README.md) |
 | gopass | https://github.com/rosaldo/gopass | The slightly more awesome standard unix password manager for teams | [README](https://github.com/rosaldo/gopass/blob/master/README.md) |
 | Graft | https://github.com/rosaldo/Graft | Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase. | [README](https://github.com/rosaldo/Graft/blob/main/README.md) |
-| harness2 | https://github.com/rosaldo/harness2 | — | [README](https://github.com/rosaldo/harness2/blob/main/README.md) |
+| harness2 | https://github.com/rosaldo/harness2 | google-research/harness2 | [README](https://github.com/rosaldo/harness2/blob/main/README.md) |
 | harvey | https://github.com/rosaldo/harvey | Autonomous AI sales agent powered by Claude Code or Codex. Finds prospects, writes cold emails, sends campaigns, handles replies, books meetings. No API keys needed — runs on your Claude or Codex subscriptions. | [README](https://github.com/rosaldo/harvey/blob/main/README.md) |
 | hermes-agent | https://github.com/rosaldo/hermes-agent | The agent that grows with you | [README](https://github.com/rosaldo/hermes-agent/blob/main/README.md) |
 | hyperframes | https://github.com/rosaldo/hyperframes | Write HTML. Render video. Built for agents. | [README](https://github.com/rosaldo/hyperframes/blob/main/README.md) |
@@ -74,11 +74,8 @@ Every repository under [github.com/rosaldo](https://github.com/rosaldo) that is 
 | OpenManus | https://github.com/rosaldo/OpenManus | No fortress, purely open ground.  OpenManus is Coming. | [README](https://github.com/rosaldo/OpenManus/blob/main/README.md) |
 | OpenMontage | https://github.com/rosaldo/OpenMontage | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. | [README](https://github.com/rosaldo/OpenMontage/blob/main/README.md) |
 | orca | https://github.com/rosaldo/orca | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. | [README](https://github.com/rosaldo/orca/blob/main/README.md) |
-| orca-midnight-theme | https://github.com/rosaldo/orca-midnight-theme | Official Orca Midnight application theme | — (no README) |
-| orca-minimal-icons | https://github.com/rosaldo/orca-minimal-icons | Official minimal icon theme for Orca | — (no README) |
-| orca-plugins | https://github.com/rosaldo/orca-plugins | Official marketplace index for Orca plugins | — (no README) |
-| orca-portuguese | https://github.com/rosaldo/orca-portuguese | Official Brazilian Portuguese language pack for Orca | — (no README) |
-| orca-workflow-skills | https://github.com/rosaldo/orca-workflow-skills | Official workflow skills for Orca users and agents | — (no README) |
+| orca-plugins | https://github.com/rosaldo/orca-plugins | Official marketplace index for Orca plugins | [README](https://github.com/rosaldo/orca-plugins/blob/main/README.md) |
+| orca-portuguese | https://github.com/rosaldo/orca-portuguese | Official Brazilian Portuguese language pack for Orca | [README](https://github.com/rosaldo/orca-portuguese/blob/main/README.md) |
 | picoclaw | https://github.com/rosaldo/picoclaw | Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity | [README](https://github.com/rosaldo/picoclaw/blob/main/README.md) |
 | project-nomad | https://github.com/rosaldo/project-nomad | Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required. | [README](https://github.com/rosaldo/project-nomad/blob/main/README.md) |
 | rankme.fast | https://github.com/rosaldo/rankme.fast | The self-hosted SEO platform.  | [README](https://github.com/rosaldo/rankme.fast/blob/master/README.md) |
