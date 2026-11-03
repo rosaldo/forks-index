@@ -1,6 +1,6 @@
 # forks-index
 
-Every repository under [github.com/rosaldo](https://github.com/rosaldo) that is a fork, in alphabetical order.
+Every repository under [github.com/rosaldo](https://github.com/rosaldo) that is a fork, in alphabetical order. Details link to the README on the original project's default branch.
 
 | Project | URL | Description | Details |
 |---|---|---|---|
@@ -22,7 +22,7 @@ Every repository under [github.com/rosaldo](https://github.com/rosaldo) that is 
 | camofox-browser | https://github.com/rosaldo/camofox-browser | Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement. | [README](https://github.com/rosaldo/camofox-browser/blob/master/README.md) |
 | career-ops | https://github.com/rosaldo/career-ops | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more). | [README](https://github.com/rosaldo/career-ops/blob/main/README.md) |
 | casdoor | https://github.com/rosaldo/casdoor | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD | [README](https://github.com/rosaldo/casdoor/blob/master/README.md) |
-| ccxt | https://github.com/rosaldo/ccxt | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | [README](https://github.com/rosaldo/ccxt/blob/rosaldo/README.md) |
+| ccxt | https://github.com/rosaldo/ccxt | A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust | [README](https://github.com/rosaldo/ccxt/blob/master/README.md) |
 | CL4R1T4S | https://github.com/rosaldo/CL4R1T4S | LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐 | [README](https://github.com/rosaldo/CL4R1T4S/blob/main/README.md) |
 | Claude-Code-Frontend-Design-Toolkit | https://github.com/rosaldo/Claude-Code-Frontend-Design-Toolkit | Everything I've found that actually makes Claude Code output better-looking frontends. Skills, plugins, MCP servers, CLAUDE.md tricks | [README](https://github.com/rosaldo/Claude-Code-Frontend-Design-Toolkit/blob/main/README.md) |
 | Claude-Red | https://github.com/rosaldo/Claude-Red | claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development. | [README](https://github.com/rosaldo/Claude-Red/blob/main/README.md) |
@@ -67,7 +67,7 @@ Every repository under [github.com/rosaldo](https://github.com/rosaldo) that is 
 | omniget | https://github.com/rosaldo/omniget | Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer. | [README](https://github.com/rosaldo/omniget/blob/main/README.md) |
 | OmniRoute | https://github.com/rosaldo/OmniRoute | Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors | [README](https://github.com/rosaldo/OmniRoute/blob/release/v3.8.51/README.md) |
 | openclaw | https://github.com/rosaldo/openclaw | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  | [README](https://github.com/rosaldo/openclaw/blob/main/README.md) |
-| opencode | https://github.com/rosaldo/opencode | A powerful AI coding agent. Built for the terminal. | [README](https://github.com/rosaldo/opencode/blob/master/README.md) |
+| opencode | https://github.com/rosaldo/opencode | A powerful AI coding agent. Built for the terminal. | [README](https://github.com/rosaldo/opencode/blob/main/README.md) |
 | opencode-ts | https://github.com/rosaldo/opencode-ts | The open source coding agent. | [README](https://github.com/rosaldo/opencode-ts/blob/dev/README.md) |
 | opendataloader-pdf | https://github.com/rosaldo/opendataloader-pdf | PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. | [README](https://github.com/rosaldo/opendataloader-pdf/blob/main/README.md) |
 | OpenJarvis | https://github.com/rosaldo/OpenJarvis | Personal AI, On Personal Devices | [README](https://github.com/rosaldo/OpenJarvis/blob/main/README.md) |
