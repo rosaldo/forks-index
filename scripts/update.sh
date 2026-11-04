@@ -170,4 +170,4 @@ awk -F'\t' '$4 ~ /^(skipped|failed)/ {print "  "$1": "$4}' <<< "$SORTED"
 while IFS=$'\t' read -r n _; do
   [[ -n "${EN[$n]:-}" && -n "${PT[$n]:-}" ]] || printf '  %s: no line in data/descriptions.tsv (GitHub description used)\n' "$n"
 done <<< "$SORTED"
-printf '\nNext: git add -A && scripts/commit.sh docs "update inventory" && scripts/push.sh\n'
+printf '\nNext: git add -A ; scripts/commit.sh docs "update inventory" ; scripts/push.sh\n'
