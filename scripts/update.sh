@@ -67,19 +67,26 @@ visit_fork() {
   [[ "$link" == https://* ]] || link="$(api "repos/$OWNER/$name/readme" --jq .html_url)" || link=""
   [[ "$link" == https://* ]] || link=""
   printf '%s\t%s\t%s\t%s\n' "$name" "$parent" "$link" "$state" >> "$ROWS"
+  printf '  [%3d/%d] %s: %s\n' "$(wc -l < "$ROWS")" "$TOTAL" "$name" "$state"
 }
 export -f api sync_branch visit_fork
 
 # Private forks must never reach a public inventory.
+printf '==> Listing the public forks of %s\n' "$OWNER"
 FORKS="$(gh repo list "$OWNER" --fork --visibility public --limit 1000 --json name,description,parent)" \
   || die "cannot list the forks of $OWNER"
-[[ "$(jq length <<< "$FORKS")" -gt 0 ]] || die "GitHub returned no forks for $OWNER"
+TOTAL="$(jq length <<< "$FORKS")"
+export TOTAL
+[[ "$TOTAL" -gt 0 ]] || die "GitHub returned no forks for $OWNER"
+if [[ "$SYNC" == 1 ]]; then printf '==> Syncing and reading %s forks\n' "$TOTAL"
+else printf '==> Reading %s forks (no sync)\n' "$TOTAL"; fi
 
 # shellcheck disable=SC2016
 jq -r '.[] | [.name, (if .parent.name then .parent.owner.login + "/" + .parent.name else "" end)] | @tsv' <<< "$FORKS" \
   | xargs -P 8 -d '\n' -n 1 bash -c 'IFS=$'"'"'\t'"'"' read -r n p <<< "$1"; visit_fork "$n" "$p"' _
 
-[[ "$(wc -l < "$ROWS")" -eq "$(jq length <<< "$FORKS")" ]] || die "some forks were not visited; files left untouched"
+[[ "$(wc -l < "$ROWS")" -eq "$TOTAL" ]] || die "some forks were not visited; files left untouched"
+printf '==> Writing README.md, README.pt-BR.md and llms.txt\n'
 
 declare -A EN PT
 while IFS=$'\t' read -r n en pt; do EN[$n]="$en" PT[$n]="$pt"; done < "$ROOT/data/descriptions.tsv"
