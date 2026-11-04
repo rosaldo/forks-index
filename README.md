@@ -208,6 +208,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [ucbepic/docetl](https://github.com/ucbepic/docetl)
 - **Details:** [README](https://github.com/rosaldo/docetl/blob/main/README.md)
 
+### [dotfiles](https://github.com/rosaldo/dotfiles)
+
+- **What it does and how to use it with AI:** Meu .vimrc
+- **Forked from:** [lamenezes/dotfiles](https://github.com/lamenezes/dotfiles)
+- **Details:** [README](https://github.com/rosaldo/dotfiles/blob/master/README.md)
+
 ## E
 
 ### [everything-claude-code](https://github.com/rosaldo/everything-claude-code)
@@ -677,12 +683,6 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** TypeScript WebGPU library with typed shader imports, running in the browser, headless Node and tests. Built to be operated by coding agents: docs, examples and shader validation all run from the CLI (`npx vgpu docs`, `examples`, `check`).
 - **Forked from:** [vercel-labs/vgpu](https://github.com/vercel-labs/vgpu)
 - **Details:** [README](https://github.com/rosaldo/vgpu/blob/canary/README.md)
-
-### [.vimrc](https://github.com/rosaldo/.vimrc)
-
-- **What it does and how to use it with AI:** Personal Vim configuration: copy `.vimrc` to your home folder, install Vundle and run `:BundleInstall`. Not an AI tool.
-- **Forked from:** [lamenezes/dotfiles](https://github.com/lamenezes/dotfiles)
-- **Details:** [README](https://github.com/rosaldo/.vimrc/blob/master/README.md)
 
 ## W
 

@@ -208,6 +208,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [ucbepic/docetl](https://github.com/ucbepic/docetl)
 - **Detalhes:** [README](https://github.com/rosaldo/docetl/blob/main/README.md)
 
+### [dotfiles](https://github.com/rosaldo/dotfiles)
+
+- **O que faz e como usar com IA:** Meu .vimrc
+- **Fork de:** [lamenezes/dotfiles](https://github.com/lamenezes/dotfiles)
+- **Detalhes:** [README](https://github.com/rosaldo/dotfiles/blob/master/README.md)
+
 ## E
 
 ### [everything-claude-code](https://github.com/rosaldo/everything-claude-code)
@@ -677,12 +683,6 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Biblioteca WebGPU em TypeScript com imports de shader tipados, rodando no navegador, em Node sem interface e em testes. Feita para ser operada por agentes de código: documentação, exemplos e validação de shaders rodam pela CLI (`npx vgpu docs`, `examples`, `check`).
 - **Fork de:** [vercel-labs/vgpu](https://github.com/vercel-labs/vgpu)
 - **Detalhes:** [README](https://github.com/rosaldo/vgpu/blob/canary/README.md)
-
-### [.vimrc](https://github.com/rosaldo/.vimrc)
-
-- **O que faz e como usar com IA:** Configuração pessoal do Vim: copie `.vimrc` para sua pasta pessoal, instale o Vundle e rode `:BundleInstall`. Não é uma ferramenta de IA.
-- **Fork de:** [lamenezes/dotfiles](https://github.com/lamenezes/dotfiles)
-- **Detalhes:** [README](https://github.com/rosaldo/.vimrc/blob/master/README.md)
 
 ## W
 
