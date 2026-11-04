@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) \[J\] [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) \[X\] [\[Y\]](#y) \[Z\] 
 
-Um inventário de 110 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 111 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
@@ -385,6 +385,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Detalhes:** [README](https://github.com/rosaldo/LongCat-Video-Avatar/blob/main/README.md)
 
 ## M
+
+### [manim](https://github.com/rosaldo/manim)
+
+- **O que faz e como usar com IA:** Animation engine for explanatory math videos
+- **Fork de:** [3b1b/manim](https://github.com/3b1b/manim)
+- **Detalhes:** [README](https://github.com/rosaldo/manim/blob/master/README.md)
 
 ### [mc](https://github.com/rosaldo/mc)
 

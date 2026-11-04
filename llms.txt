@@ -1,6 +1,6 @@
 # forks-index
 
-> Inventory of 110 open source projects forked by rosaldo: AI coding agents, agent skills, MCP servers, LLM gateways, local LLM inference, RAG and related tools, each with how to use it with an AI.
+> Inventory of 111 open source projects forked by rosaldo: AI coding agents, agent skills, MCP servers, LLM gateways, local LLM inference, RAG and related tools, each with how to use it with an AI.
 
 - [English README](README.md)
 - [README em português](README.pt-BR.md)
@@ -66,6 +66,7 @@
 - [LitServe](https://github.com/rosaldo/LitServe): Minimal Python framework for custom AI inference servers: define the logic for models, agents, RAG or pipelines with control over batching, streaming and multi-GPU autoscaling, without MLOps glue. Self-host it or use the managed option.
 - [LocalAI](https://github.com/rosaldo/LocalAI): Open-source engine to run LLMs, vision, voice, image and video models on your own hardware, no GPU required. Exposes OpenAI-, Anthropic- and ElevenLabs-compatible APIs, so existing tools can point at it, and includes agents with tools, RAG, MCP and skills.
 - [LongCat-Video-Avatar](https://github.com/rosaldo/LongCat-Video-Avatar): Model for audio-driven character animation: Audio-Text-to-Video, Audio-Text-Image-to-Video and video continuation, with single or multiple audio streams. The repository is the project homepage, with technical report, code and model weights.
+- [manim](https://github.com/rosaldo/manim): Animation engine for explanatory math videos
 - [mc](https://github.com/rosaldo/mc): GNU Midnight Commander, a text-mode full-screen file manager for the console and terminal emulators. Not an AI tool; a companion for working on servers alongside terminal agents.
 - [memanto](https://github.com/rosaldo/memanto): Memory agent that manages the memories of your other AI agents: what to keep, what conflicts, what expires and who needs to know. Install with pip, npm or Go and connect it to the agents you already use.
 - [milvus](https://github.com/rosaldo/milvus): High-performance, cloud-native vector database for searching unstructured data at scale. The vector store behind RAG and agent memory, with integrations for LangChain, LlamaIndex, OpenAI and Hugging Face.

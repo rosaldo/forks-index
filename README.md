@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) \[J\] [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) \[X\] [\[Y\]](#y) \[Z\] 
 
-An inventory of 110 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 111 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
@@ -385,6 +385,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Details:** [README](https://github.com/rosaldo/LongCat-Video-Avatar/blob/main/README.md)
 
 ## M
+
+### [manim](https://github.com/rosaldo/manim)
+
+- **What it does and how to use it with AI:** Animation engine for explanatory math videos
+- **Forked from:** [3b1b/manim](https://github.com/3b1b/manim)
+- **Details:** [README](https://github.com/rosaldo/manim/blob/master/README.md)
 
 ### [mc](https://github.com/rosaldo/mc)
 
