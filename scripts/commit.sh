@@ -10,7 +10,7 @@
 # This repository is an inventory with no features to version, so the version is the moment of
 # the commit, YYYYMMDD-HHMMSS, and the tag has the same name.
 #
-# Exit: 0 committed and tagged · 1 gate or git failed · 2 usage
+# Exit: 0 committed and tagged, or nothing staged · 1 gate or git failed · 2 usage
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/.." && pwd)"
@@ -36,8 +36,11 @@ gate() {
 
 release() {
   local type="$1" msg="$2" version subject
-  git -C "$ROOT" diff --cached --quiet && [[ -z "$(git -C "$ROOT" status --porcelain VERSION)" ]] \
-    && fail "nothing staged: git add first"
+  # An inventory that did not change is a normal outcome of the routine, not an error.
+  if git -C "$ROOT" diff --cached --quiet; then
+    echo "nothing to commit: the inventory did not change"
+    return
+  fi
   version="$(date +%Y%m%d-%H%M%S)"
   git -C "$ROOT" rev-parse -q --verify "refs/tags/$version" > /dev/null && fail "tag $version already exists, try again"
   echo "$version" > "$ROOT/VERSION"
