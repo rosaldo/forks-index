@@ -166,8 +166,8 @@ printf '\n%s forks. Inventory rewritten.\n' "$COUNT"
 printf '\nBy state:\n'
 cut -f4 <<< "$SORTED" | sed -E 's/ on .*| [a-z_-]*\/.*//; s/^synced .*/synced/; s/^failed: .*/failed/; s/^skipped: .*/skipped/; s/^behind upstream.*/behind upstream (not synced)/' | sort | uniq -c
 printf '\nNeeds your attention:\n'
-awk -F'\t' '$4 ~ /^(skipped|failed)/ {print "  "$1": "$4}' <<< "$SORTED"
+awk -F'\t' -v o="$OWNER" '$4 ~ /^(skipped|failed)/ {print "  https://github.com/"o"/"$1"  "$4}' <<< "$SORTED"
 while IFS=$'\t' read -r n _; do
-  [[ -n "${EN[$n]:-}" && -n "${PT[$n]:-}" ]] || printf '  %s: no line in data/descriptions.tsv (GitHub description used)\n' "$n"
+  [[ -n "${EN[$n]:-}" && -n "${PT[$n]:-}" ]] || printf '  https://github.com/%s/%s  no line in data/descriptions.tsv (GitHub description used)\n' "$OWNER" "$n"
 done <<< "$SORTED"
 printf '\nNext: git add -A ; scripts/commit.sh docs "update inventory" ; scripts/push.sh\n'
