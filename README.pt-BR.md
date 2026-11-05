@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) \[J\] [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) \[X\] [\[Y\]](#y) \[Z\] 
 
-Um inventário de 111 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 118 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
@@ -210,7 +210,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [dotfiles](https://github.com/rosaldo/dotfiles)
 
-- **O que faz e como usar com IA:** Meu .vimrc
+- **O que faz e como usar com IA:** Arquivos pessoais de configuração Unix: Bash, Vim, tmux, Git, PostgreSQL e IPython, aplicados ao rodar `setup.py`. Não é uma ferramenta de IA; serve de referência para configurar o terminal onde você roda seus agentes.
 - **Fork de:** [lamenezes/dotfiles](https://github.com/lamenezes/dotfiles)
 - **Detalhes:** [README](https://github.com/rosaldo/dotfiles/blob/master/README.md)
 
@@ -235,6 +235,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Onze skills gratuitas do Claude que testam um negócio antes do lançamento: conselho de administração, diretor de marketing, CFO, um painel de 100 agentes compradores, além de preço, oferta, concorrentes e marca. Sem cadastro nem chave de API; adicione as skills ao Claude e peça.
 - **Fork de:** [Jakeschincariol/founder-skill](https://github.com/Jakeschincariol/founder-skill)
 - **Detalhes:** [README](https://github.com/rosaldo/founder-skill/blob/main/README.md)
+
+### [foundry](https://github.com/rosaldo/foundry)
+
+- **O que faz e como usar com IA:** Kit de ferramentas em Rust para desenvolver aplicações Ethereum: o Forge compila, testa, faz fuzzing, depura e publica contratos Solidity, o Cast lê dados da rede e envia transações, o Anvil é um nó local e o Chisel um REPL de Solidity. Instale com o script curl e `foundryup`. Não é uma ferramenta de IA; é tudo linha de comando, então um agente de código pode rodar direto.
+- **Fork de:** [foundry-rs/foundry](https://github.com/foundry-rs/foundry)
+- **Detalhes:** [README](https://github.com/rosaldo/foundry/blob/master/README.md)
 
 ### [freebuff](https://github.com/rosaldo/freebuff)
 
@@ -267,6 +273,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Emulador de terminal rápido, nativo e acelerado por GPU, também disponível como biblioteca embutível (libghostty). Não é uma ferramenta de IA, mas é um bom lugar para rodar agentes de código de terminal como Claude Code ou Codex.
 - **Fork de:** [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 - **Detalhes:** [README](https://github.com/rosaldo/ghostty/blob/main/README.md)
+
+### [go-ethereum](https://github.com/rosaldo/go-ethereum)
+
+- **O que faz e como usar com IA:** Geth, a implementação em Go da camada de execução do Ethereum: `geth` roda um nó completo ou de arquivo na rede principal, em rede de teste ou privada, e `abigen` gera pacotes Go com tipos seguros a partir de ABIs de contratos. Compile com `make geth` ou baixe um binário. Não é uma ferramenta de IA; útil quando um agente ou serviço em Go precisa de acesso próprio à rede.
+- **Fork de:** [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)
+- **Detalhes:** [README](https://github.com/rosaldo/go-ethereum/blob/master/README.md)
 
 ### [go-imap](https://github.com/rosaldo/go-imap)
 
@@ -394,7 +406,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [manim](https://github.com/rosaldo/manim)
 
-- **O que faz e como usar com IA:** Animation engine for explanatory math videos
+- **O que faz e como usar com IA:** ManimGL, o motor criado pelo 3Blue1Brown para animações programáticas precisas em vídeos explicativos de matemática. Instale o pacote `manimgl`, não o `manim`, que é a edição separada da comunidade. Precisa de FFmpeg e OpenGL; LaTeX é opcional. Não é uma ferramenta de IA, mas as cenas são código Python que um agente pode escrever.
 - **Fork de:** [3b1b/manim](https://github.com/3b1b/manim)
 - **Detalhes:** [README](https://github.com/rosaldo/manim/blob/master/README.md)
 
@@ -498,6 +510,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
 - **Detalhes:** [README](https://github.com/rosaldo/OpenMontage/blob/main/README.md)
 
+### [openzeppelin-contracts](https://github.com/rosaldo/openzeppelin-contracts)
+
+- **O que faz e como usar com IA:** Biblioteca para desenvolver contratos inteligentes seguros em Solidity: implementações de ERC20 e ERC721, permissões por papéis e componentes reutilizáveis. `npm install @openzeppelin/contracts` traz a versão auditada mais recente; `forge install OpenZeppelin/openzeppelin-contracts` também funciona. Não é uma ferramenta de IA; são peças testadas para os contratos que um agente escreve.
+- **Fork de:** [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
+- **Detalhes:** [README](https://github.com/rosaldo/openzeppelin-contracts/blob/master/README.md)
+
 ### [OpnForm](https://github.com/rosaldo/OpnForm)
 
 - **O que faz e como usar com IA:** Criador de formulários de código aberto, hospedado ou auto-hospedado. O servidor MCP remoto permite que agentes de IA criem e visualizem um rascunho privado sem login; o OAuth adiciona gestão de formulários por workspace e leitura das respostas.
@@ -542,6 +560,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [sipeed/picoclaw](https://github.com/sipeed/picoclaw)
 - **Detalhes:** [README](https://github.com/rosaldo/picoclaw/blob/main/README.md)
 
+### [ponder](https://github.com/rosaldo/ponder)
+
+- **O que faz e como usar com IA:** Framework TypeScript de código aberto para indexar dados EVM: indexa qualquer contrato ou conta em qualquer rede compatível com EVM, grava os dados no Postgres e consulta por GraphQL ou SQL. Comece com `pnpm create ponder`; roda onde houver Node.js ou Bun. Não é uma ferramenta de IA; dá a um agente uma visão consultável dos dados da rede.
+- **Fork de:** [ponder-sh/ponder](https://github.com/ponder-sh/ponder)
+- **Detalhes:** [README](https://github.com/rosaldo/ponder/blob/main/README.md)
+
 ### [project-nomad](https://github.com/rosaldo/project-nomad)
 
 - **O que faz e como usar com IA:** Servidor de conhecimento e educação que funciona offline, com Wikipédia, livros, cursos, mapas e IA local opcional, em hardware seu. O chat de IA usa Ollama ou um servidor compatível com OpenAI, como LM Studio ou llama.cpp, com envio de documentos.
@@ -555,6 +579,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Detalhes:** [README](https://github.com/rosaldo/puck/blob/main/README.md)
 
 ## R
+
+### [rainbowkit](https://github.com/rosaldo/rainbowkit)
+
+- **O que faz e como usar com IA:** Biblioteca React que adiciona conexão de carteira a um dApp, com gerenciamento de carteiras pronto e fácil personalização, construída sobre wagmi e viem. Crie um app com `npm init @rainbow-me/rainbowkit@latest`. Não é uma ferramenta de IA; é um componente pronto para um agente que constrói a interface de um dApp.
+- **Fork de:** [rainbow-me/rainbowkit](https://github.com/rainbow-me/rainbowkit)
+- **Detalhes:** [README](https://github.com/rosaldo/rainbowkit/blob/main/README.md)
 
 ### [rankme.fast](https://github.com/rosaldo/rankme.fast)
 
@@ -684,6 +714,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [vercel-labs/vgpu](https://github.com/vercel-labs/vgpu)
 - **Detalhes:** [README](https://github.com/rosaldo/vgpu/blob/canary/README.md)
 
+### [viem](https://github.com/rosaldo/viem)
+
+- **O que faz e como usar com IA:** Interface TypeScript para Ethereum: abstrações sobre a API JSON-RPC, APIs para contratos inteligentes, utilitários de ABI e tipos inferidos das ABIs, com carteiras de extensão do navegador, WalletConnect ou chave privada. Não é uma ferramenta de IA; é uma biblioteca cliente que um agente ou serviço pode usar para ler e escrever na rede.
+- **Fork de:** [wevm/viem](https://github.com/wevm/viem)
+- **Detalhes:** [README](https://github.com/rosaldo/viem/blob/main/README.md)
+
 ## W
 
 ### [WA-AKG](https://github.com/rosaldo/WA-AKG)
@@ -691,6 +727,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Gateway e painel de WhatsApp auto-hospedado, com Next.js e Baileys: várias sessões, mensagens agendadas, respostas automáticas e webhooks. Não tem IA própria; webhooks e a API permitem conectar um agente de IA ao WhatsApp.
 - **Fork de:** [mrifqidaffaaditya/WA-AKG](https://github.com/mrifqidaffaaditya/WA-AKG)
 - **Detalhes:** [README](https://github.com/rosaldo/WA-AKG/blob/main/README.md)
+
+### [wagmi](https://github.com/rosaldo/wagmi)
+
+- **O que faz e como usar com IA:** Primitivas reativas para aplicações Ethereum: Hooks React que trabalham com viem e TanStack Query, além de pacotes para Vue e Solid, conectores de carteira e uma CLI. Não é uma ferramenta de IA; são peças para um agente que escreve a interface de um dApp.
+- **Fork de:** [wevm/wagmi](https://github.com/wevm/wagmi)
+- **Detalhes:** [README](https://github.com/rosaldo/wagmi/blob/main/.github/README.md)
 
 ### [Wan2GP](https://github.com/rosaldo/Wan2GP)
 

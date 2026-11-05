@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) \[J\] [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) \[X\] [\[Y\]](#y) \[Z\] 
 
-An inventory of 111 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 118 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
@@ -210,7 +210,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [dotfiles](https://github.com/rosaldo/dotfiles)
 
-- **What it does and how to use it with AI:** Meu .vimrc
+- **What it does and how to use it with AI:** Personal Unix configuration files: Bash, Vim, tmux, Git, PostgreSQL and IPython, put in place by running `setup.py`. Not an AI tool; a reference for setting up the terminal where you run your agents.
 - **Forked from:** [lamenezes/dotfiles](https://github.com/lamenezes/dotfiles)
 - **Details:** [README](https://github.com/rosaldo/dotfiles/blob/master/README.md)
 
@@ -235,6 +235,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Eleven free Claude skills that test a business before launch: a board of directors, marketing director, CFO, a panel of 100 buyer agents, plus pricing, offer, competitors and brand. No signup or API key; add the skills to Claude and ask.
 - **Forked from:** [Jakeschincariol/founder-skill](https://github.com/Jakeschincariol/founder-skill)
 - **Details:** [README](https://github.com/rosaldo/founder-skill/blob/main/README.md)
+
+### [foundry](https://github.com/rosaldo/foundry)
+
+- **What it does and how to use it with AI:** Rust toolkit for Ethereum application development: Forge builds, tests, fuzzes, debugs and deploys Solidity contracts, Cast reads chain data and sends transactions, Anvil is a local node and Chisel a Solidity REPL. Install with the curl script and `foundryup`. Not an AI tool; it is all command line, so a coding agent can run it directly.
+- **Forked from:** [foundry-rs/foundry](https://github.com/foundry-rs/foundry)
+- **Details:** [README](https://github.com/rosaldo/foundry/blob/master/README.md)
 
 ### [freebuff](https://github.com/rosaldo/freebuff)
 
@@ -267,6 +273,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Fast, native, GPU-accelerated terminal emulator, also available as an embeddable library (libghostty). Not an AI tool, but a solid place to run terminal coding agents such as Claude Code or Codex.
 - **Forked from:** [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 - **Details:** [README](https://github.com/rosaldo/ghostty/blob/main/README.md)
+
+### [go-ethereum](https://github.com/rosaldo/go-ethereum)
+
+- **What it does and how to use it with AI:** Geth, the Go implementation of the Ethereum execution layer: `geth` runs a full or archive node on mainnet, a testnet or a private network, and `abigen` generates type-safe Go packages from contract ABIs. Build with `make geth` or download a binary. Not an AI tool; useful when an agent or Go service needs its own access to the chain.
+- **Forked from:** [ethereum/go-ethereum](https://github.com/ethereum/go-ethereum)
+- **Details:** [README](https://github.com/rosaldo/go-ethereum/blob/master/README.md)
 
 ### [go-imap](https://github.com/rosaldo/go-imap)
 
@@ -394,7 +406,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [manim](https://github.com/rosaldo/manim)
 
-- **What it does and how to use it with AI:** Animation engine for explanatory math videos
+- **What it does and how to use it with AI:** ManimGL, the engine 3Blue1Brown created for precise programmatic animations in explanatory math videos. Install the `manimgl` package, not `manim`, which is the separate community edition. Needs FFmpeg and OpenGL; LaTeX is optional. Not an AI tool, but scenes are Python code that an agent can write.
 - **Forked from:** [3b1b/manim](https://github.com/3b1b/manim)
 - **Details:** [README](https://github.com/rosaldo/manim/blob/master/README.md)
 
@@ -498,6 +510,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
 - **Details:** [README](https://github.com/rosaldo/OpenMontage/blob/main/README.md)
 
+### [openzeppelin-contracts](https://github.com/rosaldo/openzeppelin-contracts)
+
+- **What it does and how to use it with AI:** Library for secure smart contract development in Solidity: ERC20 and ERC721 implementations, role-based permissions and reusable components. `npm install @openzeppelin/contracts` gets the latest audited release; `forge install OpenZeppelin/openzeppelin-contracts` also works. Not an AI tool; tested building blocks for the contracts an agent writes.
+- **Forked from:** [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
+- **Details:** [README](https://github.com/rosaldo/openzeppelin-contracts/blob/master/README.md)
+
 ### [OpnForm](https://github.com/rosaldo/OpnForm)
 
 - **What it does and how to use it with AI:** Open-source form builder, hosted or self-hosted. Its remote MCP server lets AI agents create and preview a private form draft without login; OAuth adds workspace-aware form management and read-only access to submissions.
@@ -542,6 +560,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [sipeed/picoclaw](https://github.com/sipeed/picoclaw)
 - **Details:** [README](https://github.com/rosaldo/picoclaw/blob/main/README.md)
 
+### [ponder](https://github.com/rosaldo/ponder)
+
+- **What it does and how to use it with AI:** Open-source TypeScript framework for EVM data indexing: index any contract or account on any EVM-compatible chain, write the data to Postgres and query it over GraphQL or SQL. Start with `pnpm create ponder`; it deploys anywhere that runs Node.js or Bun. Not an AI tool; it gives an agent a queryable view of on-chain data.
+- **Forked from:** [ponder-sh/ponder](https://github.com/ponder-sh/ponder)
+- **Details:** [README](https://github.com/rosaldo/ponder/blob/main/README.md)
+
 ### [project-nomad](https://github.com/rosaldo/project-nomad)
 
 - **What it does and how to use it with AI:** Offline-first knowledge and education server with Wikipedia, books, courses, maps and optional local AI, on hardware you own. Its AI chat uses Ollama or an OpenAI-compatible server such as LM Studio or llama.cpp, with document upload.
@@ -555,6 +579,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Details:** [README](https://github.com/rosaldo/puck/blob/main/README.md)
 
 ## R
+
+### [rainbowkit](https://github.com/rosaldo/rainbowkit)
+
+- **What it does and how to use it with AI:** React library that adds wallet connection to a dApp, with wallet management out of the box and easy customization, built on wagmi and viem. Scaffold an app with `npm init @rainbow-me/rainbowkit@latest`. Not an AI tool; a ready-made component for an agent building a dApp interface.
+- **Forked from:** [rainbow-me/rainbowkit](https://github.com/rainbow-me/rainbowkit)
+- **Details:** [README](https://github.com/rosaldo/rainbowkit/blob/main/README.md)
 
 ### [rankme.fast](https://github.com/rosaldo/rankme.fast)
 
@@ -684,6 +714,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [vercel-labs/vgpu](https://github.com/vercel-labs/vgpu)
 - **Details:** [README](https://github.com/rosaldo/vgpu/blob/canary/README.md)
 
+### [viem](https://github.com/rosaldo/viem)
+
+- **What it does and how to use it with AI:** TypeScript interface for Ethereum: abstractions over the JSON-RPC API, smart contract APIs, ABI utilities and types inferred from ABIs, with browser extension, WalletConnect or private key wallets. Not an AI tool; a client library an agent or service can use to read from and write to the chain.
+- **Forked from:** [wevm/viem](https://github.com/wevm/viem)
+- **Details:** [README](https://github.com/rosaldo/viem/blob/main/README.md)
+
 ## W
 
 ### [WA-AKG](https://github.com/rosaldo/WA-AKG)
@@ -691,6 +727,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Self-hosted WhatsApp gateway and dashboard with Next.js and Baileys: multiple sessions, scheduled messages, auto-replies and webhooks. It has no AI of its own; webhooks and its API let you connect an AI agent to WhatsApp.
 - **Forked from:** [mrifqidaffaaditya/WA-AKG](https://github.com/mrifqidaffaaditya/WA-AKG)
 - **Details:** [README](https://github.com/rosaldo/WA-AKG/blob/main/README.md)
+
+### [wagmi](https://github.com/rosaldo/wagmi)
+
+- **What it does and how to use it with AI:** Reactive primitives for Ethereum apps: React Hooks that work with viem and TanStack Query, plus packages for Vue and Solid, wallet connectors and a CLI. Not an AI tool; building blocks for an agent writing a dApp interface.
+- **Forked from:** [wevm/wagmi](https://github.com/wevm/wagmi)
+- **Details:** [README](https://github.com/rosaldo/wagmi/blob/main/.github/README.md)
 
 ### [Wan2GP](https://github.com/rosaldo/Wan2GP)
 
