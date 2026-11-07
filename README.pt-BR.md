@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) \[J\] [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) \[X\] [\[Y\]](#y) \[Z\] 
 
-Um inventário de 118 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 125 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
@@ -70,6 +70,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [google/artemis](https://github.com/google/artemis)
 - **Detalhes:** [README](https://github.com/rosaldo/artemis/blob/main/README.md)
 
+### [arweave-js](https://github.com/rosaldo/arweave-js)
+
+- **O que faz e como usar com IA:** Browser and Nodejs client for general interaction with the arweave protocol and gateways
+- **Fork de:** [ArweaveTeam/arweave-js](https://github.com/ArweaveTeam/arweave-js)
+- **Detalhes:** [README](https://github.com/rosaldo/arweave-js/blob/master/README.md)
+
 ### [assistant-ui](https://github.com/rosaldo/assistant-ui)
 
 - **O que faz e como usar com IA:** Biblioteca TypeScript/React para criar interfaces de chat com IA em produção. Comece com `npx assistant-ui@latest create` ou adicione a um app existente com `init`. Suporta OpenAI, Anthropic, Gemini, Mistral, Bedrock, Ollama e outros pelo AI SDK.
@@ -77,6 +83,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Detalhes:** [README](https://github.com/rosaldo/assistant-ui/blob/main/README.md)
 
 ## B
+
+### [bang-motion](https://github.com/rosaldo/bang-motion)
+
+- **O que faz e como usar com IA:** Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography, and five explainer styles that move like video, not slides. Single index.html output. Works with Claude Code, Codex, Gemini CLI, Cursor.
+- **Fork de:** [bangtutorial/bang-motion](https://github.com/bangtutorial/bang-motion)
+- **Detalhes:** [README](https://github.com/rosaldo/bang-motion/blob/main/README.md)
 
 ### [BIMCraft](https://github.com/rosaldo/BIMCraft)
 
@@ -286,6 +298,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [emersion/go-imap](https://github.com/emersion/go-imap)
 - **Detalhes:** [README](https://github.com/rosaldo/go-imap/blob/v2/README.md)
 
+### [go-ipfs-api](https://github.com/rosaldo/go-ipfs-api)
+
+- **O que faz e como usar com IA:** The go interface to ipfs's HTTP API
+- **Fork de:** [ipfs/go-ipfs-api](https://github.com/ipfs/go-ipfs-api)
+- **Detalhes:** [README](https://github.com/rosaldo/go-ipfs-api/blob/master/README.md)
+
 ### [go-message](https://github.com/rosaldo/go-message)
 
 - **O que faz e como usar com IA:** Biblioteca Go com streaming para o formato de mensagens da Internet e MIME (RFC 5322, 2045 a 2047, 2183), com o subpacote `mail` para ler e escrever mensagens. Não é uma ferramenta de IA; útil quando um agente ou serviço precisa interpretar e-mail.
@@ -297,6 +315,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Biblioteca SASL para Go com os mecanismos ANONYMOUS, EXTERNAL, LOGIN, PLAIN e OAUTHBEARER. Não é uma ferramenta de IA; é uma peça para clientes de e-mail e autenticação.
 - **Fork de:** [emersion/go-sasl](https://github.com/emersion/go-sasl)
 - **Detalhes:** [README](https://github.com/rosaldo/go-sasl/blob/master/README.md)
+
+### [go-w3s-client](https://github.com/rosaldo/go-w3s-client)
+
+- **O que faz e como usar com IA:** DEPRECATED ⁂ A client to the Web3.Storage API.
+- **Fork de:** [web3-storage/go-w3s-client](https://github.com/web3-storage/go-w3s-client)
+- **Detalhes:** [README](https://github.com/rosaldo/go-w3s-client/blob/main/README.md)
 
 ### [google-maps-scraper-kit](https://github.com/rosaldo/google-maps-scraper-kit)
 
@@ -322,6 +346,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code)
 - **Detalhes:** [README](https://github.com/rosaldo/Graft/blob/main/README.md)
 
+### [gumroad](https://github.com/rosaldo/gumroad)
+
+- **O que faz e como usar com IA:** See what sticks
+- **Fork de:** [antiwork/gumroad](https://github.com/antiwork/gumroad)
+- **Detalhes:** [README](https://github.com/rosaldo/gumroad/blob/main/README.md)
+
 ## H
 
 ### [harness2](https://github.com/rosaldo/harness2)
@@ -333,7 +363,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 ### [harvey](https://github.com/rosaldo/harvey)
 
 - **O que faz e como usar com IA:** Agente de vendas autônomo que roda na sua assinatura do Claude Code ou Codex, sem conta de API de modelo. Encontra empresas, pesquisa cada uma, escreve e envia e-mail frio, lê respostas e trabalha até marcar reunião, em loop na sua máquina.
-- **Fork de:** [ethanplusai/harvey](https://github.com/ethanplusai/harvey)
+- **Fork de:** [ethanplusai/sellbird](https://github.com/ethanplusai/sellbird)
 - **Detalhes:** [README](https://github.com/rosaldo/harvey/blob/main/README.md)
 
 ### [hermes-agent](https://github.com/rosaldo/hermes-agent)
@@ -377,6 +407,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Harness de agentes para desktop voltado a aprender coisas difíceis: agentes de IA planejam e ensinam do seu entendimento atual até seu objetivo, atualizando um retrato de como você raciocina conforme responde.
 - **Fork de:** [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness)
 - **Detalhes:** [README](https://github.com/rosaldo/learnharness/blob/main/README.md)
+
+### [lemo-opuscar](https://github.com/rosaldo/lemo-opuscar)
+
+- **O que faz e como usar com IA:** A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的
+- **Fork de:** [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
+- **Detalhes:** [README](https://github.com/rosaldo/lemo-opuscar/blob/main/README.md)
 
 ### [litellm](https://github.com/rosaldo/litellm)
 
@@ -541,6 +577,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Detalhes:** [README](https://github.com/rosaldo/orca-portuguese/blob/main/README.md)
 
 ## P
+
+### [paperclip](https://github.com/rosaldo/paperclip)
+
+- **O que faz e como usar com IA:** The open-source app everyone uses to manage agents at work
+- **Fork de:** [paperclipai/paperclip](https://github.com/paperclipai/paperclip)
+- **Detalhes:** [README](https://github.com/rosaldo/paperclip/blob/master/README.md)
 
 ### [pdf_oxide](https://github.com/rosaldo/pdf_oxide)
 

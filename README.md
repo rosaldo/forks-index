@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) \[J\] [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) \[X\] [\[Y\]](#y) \[Z\] 
 
-An inventory of 118 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 125 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
@@ -70,6 +70,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [google/artemis](https://github.com/google/artemis)
 - **Details:** [README](https://github.com/rosaldo/artemis/blob/main/README.md)
 
+### [arweave-js](https://github.com/rosaldo/arweave-js)
+
+- **What it does and how to use it with AI:** Browser and Nodejs client for general interaction with the arweave protocol and gateways
+- **Forked from:** [ArweaveTeam/arweave-js](https://github.com/ArweaveTeam/arweave-js)
+- **Details:** [README](https://github.com/rosaldo/arweave-js/blob/master/README.md)
+
 ### [assistant-ui](https://github.com/rosaldo/assistant-ui)
 
 - **What it does and how to use it with AI:** TypeScript/React library for building production AI chat interfaces. Start with `npx assistant-ui@latest create` or add it to an existing app with `init`. Supports OpenAI, Anthropic, Gemini, Mistral, Bedrock, Ollama and others through the AI SDK.
@@ -77,6 +83,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Details:** [README](https://github.com/rosaldo/assistant-ui/blob/main/README.md)
 
 ## B
+
+### [bang-motion](https://github.com/rosaldo/bang-motion)
+
+- **What it does and how to use it with AI:** Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography, and five explainer styles that move like video, not slides. Single index.html output. Works with Claude Code, Codex, Gemini CLI, Cursor.
+- **Forked from:** [bangtutorial/bang-motion](https://github.com/bangtutorial/bang-motion)
+- **Details:** [README](https://github.com/rosaldo/bang-motion/blob/main/README.md)
 
 ### [BIMCraft](https://github.com/rosaldo/BIMCraft)
 
@@ -286,6 +298,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [emersion/go-imap](https://github.com/emersion/go-imap)
 - **Details:** [README](https://github.com/rosaldo/go-imap/blob/v2/README.md)
 
+### [go-ipfs-api](https://github.com/rosaldo/go-ipfs-api)
+
+- **What it does and how to use it with AI:** The go interface to ipfs's HTTP API
+- **Forked from:** [ipfs/go-ipfs-api](https://github.com/ipfs/go-ipfs-api)
+- **Details:** [README](https://github.com/rosaldo/go-ipfs-api/blob/master/README.md)
+
 ### [go-message](https://github.com/rosaldo/go-message)
 
 - **What it does and how to use it with AI:** Streaming Go library for the Internet Message Format and MIME (RFC 5322, 2045 to 2047, 2183), with a `mail` subpackage to read and write messages. Not an AI tool; useful when an agent or service has to parse email.
@@ -297,6 +315,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** SASL library for Go with the ANONYMOUS, EXTERNAL, LOGIN, PLAIN and OAUTHBEARER mechanisms. Not an AI tool; a building block for mail and auth clients.
 - **Forked from:** [emersion/go-sasl](https://github.com/emersion/go-sasl)
 - **Details:** [README](https://github.com/rosaldo/go-sasl/blob/master/README.md)
+
+### [go-w3s-client](https://github.com/rosaldo/go-w3s-client)
+
+- **What it does and how to use it with AI:** DEPRECATED ⁂ A client to the Web3.Storage API.
+- **Forked from:** [web3-storage/go-w3s-client](https://github.com/web3-storage/go-w3s-client)
+- **Details:** [README](https://github.com/rosaldo/go-w3s-client/blob/main/README.md)
 
 ### [google-maps-scraper-kit](https://github.com/rosaldo/google-maps-scraper-kit)
 
@@ -322,6 +346,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code)
 - **Details:** [README](https://github.com/rosaldo/Graft/blob/main/README.md)
 
+### [gumroad](https://github.com/rosaldo/gumroad)
+
+- **What it does and how to use it with AI:** See what sticks
+- **Forked from:** [antiwork/gumroad](https://github.com/antiwork/gumroad)
+- **Details:** [README](https://github.com/rosaldo/gumroad/blob/main/README.md)
+
 ## H
 
 ### [harness2](https://github.com/rosaldo/harness2)
@@ -333,7 +363,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 ### [harvey](https://github.com/rosaldo/harvey)
 
 - **What it does and how to use it with AI:** Autonomous sales agent that runs on your Claude Code or Codex subscription, so there is no model API bill. Finds businesses, researches each one, writes and sends cold email, reads replies and works toward a meeting, in a loop on your machine.
-- **Forked from:** [ethanplusai/harvey](https://github.com/ethanplusai/harvey)
+- **Forked from:** [ethanplusai/sellbird](https://github.com/ethanplusai/sellbird)
 - **Details:** [README](https://github.com/rosaldo/harvey/blob/main/README.md)
 
 ### [hermes-agent](https://github.com/rosaldo/hermes-agent)
@@ -377,6 +407,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Desktop agent harness for learning difficult things: AI agents plan and teach lessons from your current understanding to your goal, and update a picture of how you reason as your answers come in.
 - **Forked from:** [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness)
 - **Details:** [README](https://github.com/rosaldo/learnharness/blob/main/README.md)
+
+### [lemo-opuscar](https://github.com/rosaldo/lemo-opuscar)
+
+- **What it does and how to use it with AI:** A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的
+- **Forked from:** [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
+- **Details:** [README](https://github.com/rosaldo/lemo-opuscar/blob/main/README.md)
 
 ### [litellm](https://github.com/rosaldo/litellm)
 
@@ -541,6 +577,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Details:** [README](https://github.com/rosaldo/orca-portuguese/blob/main/README.md)
 
 ## P
+
+### [paperclip](https://github.com/rosaldo/paperclip)
+
+- **What it does and how to use it with AI:** The open-source app everyone uses to manage agents at work
+- **Forked from:** [paperclipai/paperclip](https://github.com/paperclipai/paperclip)
+- **Details:** [README](https://github.com/rosaldo/paperclip/blob/master/README.md)
 
 ### [pdf_oxide](https://github.com/rosaldo/pdf_oxide)
 
