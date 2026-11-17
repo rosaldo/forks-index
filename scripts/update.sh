@@ -43,8 +43,17 @@ sync_branch() {
   local name="$1" parent="$2" branch="$3" status
   [[ "$branch" != "$PROTECTED_BRANCH" ]] || { echo "skipped: protected branch $branch"; return; }
   # Base is the fork, head is the upstream: "ahead" means the upstream has commits to bring in.
-  status="$(api "repos/$OWNER/$name/compare/$branch...${parent%/*}:${parent#*/}:$branch" --jq .status)" \
-    || { echo "failed: cannot compare $branch with $parent"; return; }
+  # On failure status holds the error JSON: it tells a too-large diff from a missing branch.
+  if ! status="$(api "repos/$OWNER/$name/compare/$branch...${parent%/*}:${parent#*/}:$branch" --jq .status)"; then
+    if jq -e '.errors[]? | select(.code == "not_available")' <<< "$status" > /dev/null 2>&1; then
+      echo "skipped: too far diverged to compare"
+    elif ! api "repos/$OWNER/$name/branches/$branch" > /dev/null; then
+      echo "skipped: branch $branch not in fork"
+    else
+      echo "failed: cannot compare $branch with $parent"
+    fi
+    return
+  fi
   case "$status" in
     identical) echo "up to date" ;;
     ahead)
