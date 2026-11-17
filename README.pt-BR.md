@@ -2,9 +2,9 @@
 
 [\[English\]](README.md) [\[Português\]](README.pt-BR.md)
 
-[\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) \[J\] [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) \[X\] [\[Y\]](#y) \[Z\] 
+[\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) \[J\] [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) \[Z\] 
 
-Um inventário de 125 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 142 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
@@ -90,6 +90,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [bangtutorial/bang-motion](https://github.com/bangtutorial/bang-motion)
 - **Detalhes:** [README](https://github.com/rosaldo/bang-motion/blob/main/README.md)
 
+### [benjitaylor-skills](https://github.com/rosaldo/benjitaylor-skills)
+
+- **O que faz e como usar com IA:** Skills for AI coding agents.
+- **Fork de:** [benjitaylor/skills](https://github.com/benjitaylor/skills)
+- **Detalhes:** [README](https://github.com/rosaldo/benjitaylor-skills/blob/main/README.md)
+
 ### [BIMCraft](https://github.com/rosaldo/BIMCraft)
 
 - **O que faz e como usar com IA:** Modelagem da informação da construção (BIM) em Rust puro, releitura independente do fluxo do Revit: níveis, paredes, telhados, plantas, cortes, pranchas, 3D e IFC. Toda ação é um comando, então agentes de IA conseguem operar o modelo tão bem quanto uma pessoa.
@@ -113,6 +119,18 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Framework oficial de inferência para LLMs de 1 bit, feito para inferência local rápida em CPU. Rode um modelo pela linha de comando com um prompt ou use os modelos de embedding e de fala de 1 bit no seu próprio hardware.
 - **Fork de:** [microsoft/BitNet](https://github.com/microsoft/BitNet)
 - **Detalhes:** [README](https://github.com/rosaldo/BitNet/blob/main/README.md)
+
+### [bla](https://github.com/rosaldo/bla)
+
+- **O que faz e como usar com IA:** 🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).
+- **Fork de:** [qybaihe/bla](https://github.com/qybaihe/bla)
+- **Detalhes:** [README](https://github.com/rosaldo/bla/blob/main/README.md)
+
+### [blender-skills](https://github.com/rosaldo/blender-skills)
+
+- **O que faz e como usar com IA:** 94 specialist Blender skills for Cursor, Claude Code, Kiro & Codex -> MCP-powered production pipeline from blockout to engine export.
+- **Fork de:** [arjun988/blender-skills](https://github.com/arjun988/blender-skills)
+- **Detalhes:** [README](https://github.com/rosaldo/blender-skills/blob/main/README.md)
 
 ### [Bonsai](https://github.com/rosaldo/Bonsai)
 
@@ -194,6 +212,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)
 - **Detalhes:** [README](https://github.com/rosaldo/CopilotKit/blob/main/README.md)
 
+### [craft-anything](https://github.com/rosaldo/craft-anything)
+
+- **O que faz e como usar com IA:** Craft Anything: understand how any software works, and craft your own.
+- **Fork de:** [storytold/craft-anything](https://github.com/storytold/craft-anything)
+- **Detalhes:** [README](https://github.com/rosaldo/craft-anything/blob/main/README.md)
+
 ### [crm-ia-club](https://github.com/rosaldo/crm-ia-club)
 
 - **O que faz e como usar com IA:** CRM de código aberto com WhatsApp, Kanban e agentes de IA que respondem, qualificam e vendem, rodando no seu próprio servidor. Versão com curadoria do IA Club sobre o DeskcommCRM, para empreendedores brasileiros; o caminho de instalação está em `COMECE-AQUI.md`.
@@ -207,6 +231,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Detalhes:** [README](https://github.com/rosaldo/crush/blob/main/README.md)
 
 ## D
+
+### [day-trader-skill](https://github.com/rosaldo/day-trader-skill)
+
+- **O que faz e como usar com IA:** 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.
+- **Fork de:** [Jakeschincariol/day-trader-skill](https://github.com/Jakeschincariol/day-trader-skill)
+- **Detalhes:** [README](https://github.com/rosaldo/day-trader-skill/blob/main/README.md)
 
 ### [delphitools-cli](https://github.com/rosaldo/delphitools-cli)
 
@@ -340,6 +370,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [gopasspw/gopass](https://github.com/gopasspw/gopass)
 - **Detalhes:** [README](https://github.com/rosaldo/gopass/blob/master/README.md)
 
+### [gpu-unlock](https://github.com/rosaldo/gpu-unlock)
+
+- **O que faz e como usar com IA:** Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput
+- **Fork de:** [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock)
+- **Detalhes:** [README](https://github.com/rosaldo/gpu-unlock/blob/main/README.md)
+
 ### [Graft](https://github.com/rosaldo/Graft)
 
 - **O que faz e como usar com IA:** Constrói um grafo do seu código para deixar agentes (Claude Code, Cursor, Codex, Gemini) mais rápidos e baratos, além de um arquivo de skill vivo que aprende a cada tarefa. Conecta como servidor MCP ou por integração profunda com o Claude Code; também tem CLI.
@@ -393,6 +429,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Detalhes:** [README](https://github.com/rosaldo/instagram-agent-skill/blob/main/README.md)
 
 ## K
+
+### [kimi-k3-in-c](https://github.com/rosaldo/kimi-k3-in-c)
+
+- **O que faz e como usar com IA:** A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.
+- **Fork de:** [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c)
+- **Detalhes:** [README](https://github.com/rosaldo/kimi-k3-in-c/blob/main/README.md)
 
 ### [koon-mcp](https://github.com/rosaldo/koon-mcp)
 
@@ -452,6 +494,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [MidnightCommander/mc](https://github.com/MidnightCommander/mc)
 - **Detalhes:** [README](https://github.com/rosaldo/mc/blob/master/README)
 
+### [meetily](https://github.com/rosaldo/meetily)
+
+- **O que faz e como usar com IA:** Privacy-first AI meeting note taker for Windows, macOS and Linux. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai
+- **Fork de:** [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)
+- **Detalhes:** [README](https://github.com/rosaldo/meetily/blob/main/README.md)
+
 ### [memanto](https://github.com/rosaldo/memanto)
 
 - **O que faz e como usar com IA:** Agente de memória que gerencia as memórias dos seus outros agentes de IA: o que manter, o que conflita, o que expira e quem precisa saber. Instale por pip, npm ou Go e conecte aos agentes que você já usa.
@@ -476,6 +524,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [miurla/morphic](https://github.com/miurla/morphic)
 - **Detalhes:** [README](https://github.com/rosaldo/morphic/blob/main/README.md)
 
+### [motionmaxxing](https://github.com/rosaldo/motionmaxxing)
+
+- **O que faz e como usar com IA:** Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.
+- **Fork de:** [Tejashmakwana/motionmaxxing](https://github.com/Tejashmakwana/motionmaxxing)
+- **Detalhes:** [README](https://github.com/rosaldo/motionmaxxing/blob/main/README.md)
+
 ## N
 
 ### [next-forge](https://github.com/rosaldo/next-forge)
@@ -495,8 +549,8 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 ### [omniget](https://github.com/rosaldo/omniget)
 
 - **O que faz e como usar com IA:** App de desktop gratuito que baixa cursos e vídeos de mais de 1.800 sites e depois transcreve, converte e organiza. Cada ferramenta é um comando isolado com JSON na entrada e na saída, e um servidor MCP e um plugin do Claude Code permitem que agentes de IA as usem.
-- **Fork de:** [https://github.com/rosaldo/omniget/blob/main/README.md](https://github.com/https://github.com/rosaldo/omniget/blob/main/README.md)
-- **Detalhes:** [README](skipped: upstream no longer exists)
+- **Fork de:** [tonhowtf/omniget](https://github.com/tonhowtf/omniget)
+- **Detalhes:** [README](https://github.com/rosaldo/omniget/blob/main/README.md)
 
 ### [OmniRoute](https://github.com/rosaldo/OmniRoute)
 
@@ -543,7 +597,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 ### [OpenMontage](https://github.com/rosaldo/OpenMontage)
 
 - **O que faz e como usar com IA:** Sistema de produção de vídeo com agentes: 12 pipelines, mais de 100 ferramentas e mais de 700 arquivos de skills e conhecimento que transformam seu assistente de código em um estúdio de vídeo. Abra o repositório no assistente e descreva o vídeo que quer.
-- **Fork de:** [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+- **Fork de:** [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
 - **Detalhes:** [README](https://github.com/rosaldo/OpenMontage/blob/main/README.md)
 
 ### [openzeppelin-contracts](https://github.com/rosaldo/openzeppelin-contracts)
@@ -577,6 +631,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Detalhes:** [README](https://github.com/rosaldo/orca-portuguese/blob/main/README.md)
 
 ## P
+
+### [paca](https://github.com/rosaldo/paca)
+
+- **O que faz e como usar com IA:** Non-profit, community-owned and free forever: an AI-native, open-source alternative to Jira, Trello, ClickUp & Monday, where humans and AI agents work as equals on the same Scrum board. Self-hosted, fully customizable via plugins.
+- **Fork de:** [Paca-AI/paca](https://github.com/Paca-AI/paca)
+- **Detalhes:** [README](https://github.com/rosaldo/paca/blob/master/README.md)
 
 ### [paperclip](https://github.com/rosaldo/paperclip)
 
@@ -614,6 +674,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)
 - **Detalhes:** [README](https://github.com/rosaldo/project-nomad/blob/main/README.md)
 
+### [public-apis](https://github.com/rosaldo/public-apis)
+
+- **O que faz e como usar com IA:** A collective list of free APIs
+- **Fork de:** [public-apis/public-apis](https://github.com/public-apis/public-apis)
+- **Detalhes:** [README](https://github.com/rosaldo/public-apis/blob/master/README.md)
+
 ### [puck](https://github.com/rosaldo/puck)
 
 - **O que faz e como usar com IA:** Editor visual modular de código aberto, de arrastar e soltar, para React, usável em Next.js e qualquer ambiente React. Não é uma ferramenta de IA em si; as páginas são salvas como dados seus, o que combina com agentes que geram ou editam layouts.
@@ -640,6 +706,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [morluto/rea](https://github.com/morluto/rea)
 - **Detalhes:** [README](https://github.com/rosaldo/rea/blob/main/README.md)
 
+### [rea-video](https://github.com/rosaldo/rea-video)
+
+- **O que faz e como usar com IA:** Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。
+- **Fork de:** [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video)
+- **Detalhes:** [README](https://github.com/rosaldo/rea-video/blob/main/README.md)
+
 ### [replica-skill](https://github.com/rosaldo/replica-skill)
 
 - **O que faz e como usar com IA:** Onze skills gratuitas do Claude que clonam um app: fazem engenharia reversa, reconstroem, testam em busca de bugs e corrigem o que os usuários reclamam. Sem cadastro nem chave de API; cole o prompt de instalação no Claude. Respeite licenças e direitos do que for clonar.
@@ -652,11 +724,23 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [kalil0321/reverse-api-engineer](https://github.com/kalil0321/reverse-api-engineer)
 - **Detalhes:** [README](https://github.com/rosaldo/reverse-api-engineer/blob/main/README.md)
 
+### [roast-room](https://github.com/rosaldo/roast-room)
+
+- **O que faz e como usar com IA:** Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wickman, Buffett) debate your business decision in Claude Code, live around a table.
+- **Fork de:** [nateherkai/roast-room](https://github.com/nateherkai/roast-room)
+- **Detalhes:** [README](https://github.com/rosaldo/roast-room/blob/main/README.md)
+
 ### [ruflo](https://github.com/rosaldo/ruflo)
 
 - **O que faz e como usar com IA:** Meta-harness de agentes para Claude Code e Codex: a camada de execução que adiciona memória, equipes de agentes, loops, plugins, controle de custo e verificação em volta do modelo. Um guia de 14 capítulos leva da ideia à primeira tarefa útil.
 - **Fork de:** [ruvnet/ruflo](https://github.com/ruvnet/ruflo)
 - **Detalhes:** [README](https://github.com/rosaldo/ruflo/blob/main/README.md)
+
+### [rune](https://github.com/rosaldo/rune)
+
+- **O que faz e como usar com IA:** Rune: Native UI framework
+- **Fork de:** [anomalyco/rune](https://github.com/anomalyco/rune)
+- **Detalhes:** [README](https://github.com/rosaldo/rune/blob/dev/README.md)
 
 ## S
 
@@ -787,6 +871,26 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Biblioteca Go para a API multidispositivo do WhatsApp Web: envia e recebe mensagens e mídia em conversas privadas e grupos. Sem IA própria; é uma peça para conectar um agente de IA ao WhatsApp a partir de Go.
 - **Fork de:** [tulir/whatsmeow](https://github.com/tulir/whatsmeow)
 - **Detalhes:** [README](https://github.com/rosaldo/whatsmeow/blob/main/README.md)
+
+### [windows](https://github.com/rosaldo/windows)
+
+- **O que faz e como usar com IA:** Windows inside a Docker container.
+- **Fork de:** [dockur/windows](https://github.com/dockur/windows)
+- **Detalhes:** [README](https://github.com/rosaldo/windows/blob/master/readme.md)
+
+## X
+
+### [xiryn](https://github.com/rosaldo/xiryn)
+
+- **O que faz e como usar com IA:** Xiryn — the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux desktop in Docker, any model with your keys, an encrypted vault, and control from Telegram.
+- **Fork de:** [SouravBeraAkaSpeed/xiryn](https://github.com/SouravBeraAkaSpeed/xiryn)
+- **Detalhes:** [README](https://github.com/rosaldo/xiryn/blob/main/README.md)
+
+### [xtool](https://github.com/rosaldo/xtool)
+
+- **O que faz e como usar com IA:** Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.
+- **Fork de:** [xtool-org/xtool](https://github.com/xtool-org/xtool)
+- **Detalhes:** [README](https://github.com/rosaldo/xtool/blob/main/README.md)
 
 ## Y
 
