@@ -2,9 +2,9 @@
 
 [\[English\]](README.md) [\[Português\]](README.pt-BR.md)
 
-[\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) \[Q\] [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) \[Z\] 
+[\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) \[Z\] 
 
-An inventory of 156 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 169 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
@@ -206,6 +206,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
 - **Details:** [README](https://github.com/rosaldo/ComfyUI/blob/master/README.md)
 
+### [context-mode](https://github.com/rosaldo/context-mode)
+
+- **What it does and how to use it with AI:** Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OMP, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.
+- **Forked from:** [mksglu/context-mode](https://github.com/mksglu/context-mode)
+- **Details:** [README](https://github.com/rosaldo/context-mode/blob/main/README.md)
+
 ### [CopilotKit](https://github.com/rosaldo/CopilotKit)
 
 - **What it does and how to use it with AI:** Frontend SDK for agent-native applications: generative UI, shared state and human-in-the-loop flows for React, Angular, Vue, React Native, Slack and Teams. Connects your agent backend to the interface. From the makers of the AG-UI protocol.
@@ -234,7 +240,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [databasus](https://github.com/rosaldo/databasus)
 
-- **What it does and how to use it with AI:** PostgreSQL backup tool with Point-In-Time-Recovery and restore verification
+- **What it does and how to use it with AI:** PostgreSQL backup tool with point-in-time recovery and restore verification, so a backup is proven restorable before you need it.
 - **Forked from:** [databasus/databasus](https://github.com/databasus/databasus)
 - **Details:** [README](https://github.com/rosaldo/databasus/blob/main/README.md)
 
@@ -256,17 +262,23 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [ucbepic/docetl](https://github.com/ucbepic/docetl)
 - **Details:** [README](https://github.com/rosaldo/docetl/blob/main/README.md)
 
+### [Dodaios](https://github.com/rosaldo/Dodaios)
+
+- **What it does and how to use it with AI:** One workspace for everything you do with AI: Claude Code, Codex and seven more coding agents side by side, one assistant that runs them, voice, and docs. Open source, on your computer, on your own plans and keys. Formerly Personal Jarvis.
+- **Forked from:** [Dodaios/Dodaios](https://github.com/Dodaios/Dodaios)
+- **Details:** [README](https://github.com/rosaldo/Dodaios/blob/main/README.md)
+
 ### [dotenvx](https://github.com/rosaldo/dotenvx)
 
-- **What it does and how to use it with AI:** a secure dotenv—from the creator of `dotenv`
+- **What it does and how to use it with AI:** Secure dotenv from the creator of dotenv: loads environment variables from .env files and encrypts them, so secrets can be committed safely and decrypted at runtime.
 - **Forked from:** [dotenvx/dotenvx](https://github.com/dotenvx/dotenvx)
 - **Details:** [README](https://github.com/rosaldo/dotenvx/blob/main/README.md)
 
 ### [dotfiles](https://github.com/rosaldo/dotfiles)
 
 - **What it does and how to use it with AI:** Personal Unix configuration files: Bash, Vim, tmux, Git, PostgreSQL and IPython, put in place by running `setup.py`. Not an AI tool; a reference for setting up the terminal where you run your agents.
-- **Forked from:** [https://github.com/rosaldo/dotfiles/blob/master/README.md](https://github.com/https://github.com/rosaldo/dotfiles/blob/master/README.md)
-- **Details:** [README](skipped: upstream no longer exists)
+- **Forked from:** [lamenezes/dotfiles](https://github.com/lamenezes/dotfiles)
+- **Details:** [README](https://github.com/rosaldo/dotfiles/blob/master/README.md)
 
 ## E
 
@@ -286,7 +298,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [flagr](https://github.com/rosaldo/flagr)
 
-- **What it does and how to use it with AI:** Flagr is a feature flagging, A/B testing and dynamic configuration microservice
+- **What it does and how to use it with AI:** Microservice for feature flags, A/B testing and dynamic configuration, queried over a REST API.
 - **Forked from:** [openflagr/flagr](https://github.com/openflagr/flagr)
 - **Details:** [README](https://github.com/rosaldo/flagr/blob/main/README.md)
 
@@ -336,7 +348,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [gitleaks](https://github.com/rosaldo/gitleaks)
 
-- **What it does and how to use it with AI:** Find secrets with Gitleaks 🔑
+- **What it does and how to use it with AI:** Scanner that finds secrets such as keys, tokens and passwords in git repositories, files and commit history, for local use, pre-commit hooks or CI.
 - **Forked from:** [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
 - **Details:** [README](https://github.com/rosaldo/gitleaks/blob/master/README.md)
 
@@ -406,6 +418,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [trailhq/Trail-Code](https://github.com/trailhq/Trail-Code)
 - **Details:** [README](https://github.com/rosaldo/Graft/blob/main/README.md)
 
+### [graphify](https://github.com/rosaldo/graphify)
+
+- **What it does and how to use it with AI:** Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
+- **Forked from:** [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+- **Details:** [README](https://github.com/rosaldo/graphify/blob/v8/README.md)
+
 ### [gumroad](https://github.com/rosaldo/gumroad)
 
 - **What it does and how to use it with AI:** Source code of Gumroad, the e-commerce platform where creators sell products directly to consumers. It is a Ruby on Rails app; the README covers running it locally and how to contribute (open the PR on your fork, then email support).
@@ -426,11 +444,23 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [ethanplusai/sellbird](https://github.com/ethanplusai/sellbird)
 - **Details:** [README](https://github.com/rosaldo/harvey/blob/main/README.md)
 
+### [headroom](https://github.com/rosaldo/headroom)
+
+- **What it does and how to use it with AI:** Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+- **Forked from:** [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
+- **Details:** [README](https://github.com/rosaldo/headroom/blob/main/README.md)
+
 ### [hermes-agent](https://github.com/rosaldo/hermes-agent)
 
 - **What it does and how to use it with AI:** Self-improving AI agent from Nous Research: it creates skills from experience, searches its past conversations and keeps a model of you across sessions. Runs on a $5 VPS or a GPU cluster; use any model and switch with `hermes model`.
 - **Forked from:** [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 - **Details:** [README](https://github.com/rosaldo/hermes-agent/blob/main/README.md)
+
+### [hucre](https://github.com/rosaldo/hucre)
+
+- **What it does and how to use it with AI:** Zero-dependency spreadsheet engine. Read & write XLSX, CSV, ODS. Pure TypeScript, works everywhere.
+- **Forked from:** [productdevbook/hucre](https://github.com/productdevbook/hucre)
+- **Details:** [README](https://github.com/rosaldo/hucre/blob/main/README.md)
 
 ### [hyperframes](https://github.com/rosaldo/hyperframes)
 
@@ -456,7 +486,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [jitsi-meet](https://github.com/rosaldo/jitsi-meet)
 
-- **What it does and how to use it with AI:** Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
+- **What it does and how to use it with AI:** Secure, simple and scalable video conferencing, used as a standalone app or embedded in a web application.
 - **Forked from:** [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet)
 - **Details:** [README](https://github.com/rosaldo/jitsi-meet/blob/master/README.md)
 
@@ -516,7 +546,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [magika](https://github.com/rosaldo/magika)
 
-- **What it does and how to use it with AI:** Fast and accurate AI powered file content types detection 
+- **What it does and how to use it with AI:** Fast and accurate AI-powered detection of a file's content type, from the bytes rather than the extension.
 - **Forked from:** [google/magika](https://github.com/google/magika)
 - **Details:** [README](https://github.com/rosaldo/magika/blob/main/README.md)
 
@@ -576,11 +606,17 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [vercel/next-forge](https://github.com/vercel/next-forge)
 - **Details:** [README](https://github.com/rosaldo/next-forge/blob/main/README.md)
 
+### [Next-js-Boilerplate](https://github.com/rosaldo/Next-js-Boilerplate)
+
+- **What it does and how to use it with AI:** 🚀🎉📚 Nextjs Boilerplate and Starter with App Router and Page Router support, Tailwind CSS 4 and TypeScript ⚡️ Made with developer experience first: Next.js 16 + TypeScript + ESLint + Prettier + Drizzle ORM + Husky + Lint-Staged + Vitest + Testing Library + Playwright + Storybook + Commitlint + VSCode + Sentry + PostCSS + Tailwind CSS ✨
+- **Forked from:** [ixartz/Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)
+- **Details:** [README](https://github.com/rosaldo/Next-js-Boilerplate/blob/main/README.md)
+
 ## O
 
 ### [obscura](https://github.com/rosaldo/obscura)
 
-- **What it does and how to use it with AI:** The headless browser for AI agents and web scraping
+- **What it does and how to use it with AI:** Headless browser built for AI agents and web scraping.
 - **Forked from:** [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura)
 - **Details:** [README](https://github.com/rosaldo/obscura/blob/main/README.md)
 
@@ -599,8 +635,8 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 ### [OmniRoute](https://github.com/rosaldo/OmniRoute)
 
 - **What it does and how to use it with AI:** Free AI gateway: one endpoint for many providers and models, with quota-aware automatic fallback and token compression. Point Claude Code, Codex, Cursor, OpenCode, Cline or Copilot at it to keep coding when one provider runs out. Includes CLI, MCP and desktop app.
-- **Forked from:** [https://github.com/rosaldo/OmniRoute/blob/release/v3.8.51/README.md](https://github.com/https://github.com/rosaldo/OmniRoute/blob/release/v3.8.51/README.md)
-- **Details:** [README](skipped: upstream no longer exists)
+- **Forked from:** [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute)
+- **Details:** [README](https://github.com/rosaldo/OmniRoute/blob/release/v3.8.51/README.md)
 
 ### [openclaw](https://github.com/rosaldo/openclaw)
 
@@ -676,13 +712,13 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [orjson](https://github.com/rosaldo/orjson)
 
-- **What it does and how to use it with AI:** Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+- **What it does and how to use it with AI:** Fast, correct Python JSON library with native support for dataclasses, datetimes and numpy.
 - **Forked from:** [ijl/orjson](https://github.com/ijl/orjson)
 - **Details:** [README](https://github.com/rosaldo/orjson/blob/master/README.md)
 
 ### [Orpheon](https://github.com/rosaldo/Orpheon)
 
-- **What it does and how to use it with AI:** —
+- **What it does and how to use it with AI:** Extension-based music player for Android, Android TV and Wear OS, formerly Myspoti. Sound comes from your own files, live radio or extensions you choose to install.
 - **Forked from:** [kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)
 - **Details:** [README](https://github.com/rosaldo/Orpheon/blob/main/README.md)
 
@@ -712,6 +748,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [pdfme/pdfme](https://github.com/pdfme/pdfme)
 - **Details:** [README](https://github.com/rosaldo/pdfme/blob/main/README.md)
 
+### [photoguard](https://github.com/rosaldo/photoguard)
+
+- **What it does and how to use it with AI:** Raising the Cost of Malicious AI-Powered Image Editing
+- **Forked from:** [MadryLab/photoguard](https://github.com/MadryLab/photoguard)
+- **Details:** [README](https://github.com/rosaldo/photoguard/blob/main/README.md)
+
 ### [picoclaw](https://github.com/rosaldo/picoclaw)
 
 - **What it does and how to use it with AI:** Ultra-lightweight personal AI assistant in Go, built to run on very cheap hardware with little RAM and fast boot. Run it with Docker or a single binary and connect your LLM provider.
@@ -723,6 +765,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Open-source TypeScript framework for EVM data indexing: index any contract or account on any EVM-compatible chain, write the data to Postgres and query it over GraphQL or SQL. Start with `pnpm create ponder`; it deploys anywhere that runs Node.js or Bun. Not an AI tool; it gives an agent a queryable view of on-chain data.
 - **Forked from:** [ponder-sh/ponder](https://github.com/ponder-sh/ponder)
 - **Details:** [README](https://github.com/rosaldo/ponder/blob/main/README.md)
+
+### [ponytail](https://github.com/rosaldo/ponytail)
+
+- **What it does and how to use it with AI:** Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+- **Forked from:** [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
+- **Details:** [README](https://github.com/rosaldo/ponytail/blob/main/README.md)
 
 ### [project-nomad](https://github.com/rosaldo/project-nomad)
 
@@ -742,11 +790,19 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [puckeditor/puck](https://github.com/puckeditor/puck)
 - **Details:** [README](https://github.com/rosaldo/puck/blob/main/README.md)
 
+## Q
+
+### [quivr](https://github.com/rosaldo/quivr)
+
+- **What it does and how to use it with AI:** An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.
+- **Forked from:** [The-Vibe-Company/quivr](https://github.com/The-Vibe-Company/quivr)
+- **Details:** [README](https://github.com/rosaldo/quivr/blob/main/README.md)
+
 ## R
 
 ### [raea](https://github.com/rosaldo/raea)
 
-- **What it does and how to use it with AI:** Render Anything Engine: tell your AI what to make. Videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Rust + Bevy, macOS, Linux and Windows.
+- **What it does and how to use it with AI:** Render Anything Engine: tell your AI what to make and it produces videos, motion graphics, 3D and games as React and TypeScript, rendered on your own GPU. Built in Rust with Bevy, for macOS, Linux and Windows.
 - **Forked from:** [shinyobjectz/raea](https://github.com/shinyobjectz/raea)
 - **Details:** [README](https://github.com/rosaldo/raea/blob/main/README.md)
 
@@ -792,6 +848,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [nateherkai/roast-room](https://github.com/nateherkai/roast-room)
 - **Details:** [README](https://github.com/rosaldo/roast-room/blob/main/README.md)
 
+### [rtk](https://github.com/rosaldo/rtk)
+
+- **What it does and how to use it with AI:** CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- **Forked from:** [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
+- **Details:** [README](https://github.com/rosaldo/rtk/blob/develop/README.md)
+
 ### [ruflo](https://github.com/rosaldo/ruflo)
 
 - **What it does and how to use it with AI:** Agent meta-harness for Claude Code and Codex: the execution layer that adds memory, agent teams, loops, plugins, cost control and verification around the model. A 14-chapter guide takes you from the idea to a first useful task.
@@ -808,7 +870,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [scalar](https://github.com/rosaldo/scalar)
 
-- **What it does and how to use it with AI:** Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　📖 Beautiful API References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　✨ 1st-Class OpenAPI/Swagger Support
+- **What it does and how to use it with AI:** Open-source API platform: a modern REST API client and polished API reference pages, with first-class OpenAPI/Swagger support.
 - **Forked from:** [scalar/scalar](https://github.com/scalar/scalar)
 - **Details:** [README](https://github.com/rosaldo/scalar/blob/main/README.md)
 
@@ -836,6 +898,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)
 - **Details:** [README](https://github.com/rosaldo/SkillSpector/blob/main/README.md)
 
+### [slim](https://github.com/rosaldo/slim)
+
+- **What it does and how to use it with AI:** Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
+- **Forked from:** [slimtoolkit/slim](https://github.com/slimtoolkit/slim)
+- **Details:** [README](https://github.com/rosaldo/slim/blob/master/README.md)
+
 ### [Sonarr](https://github.com/rosaldo/Sonarr)
 
 - **What it does and how to use it with AI:** PVR for Usenet and BitTorrent: monitors RSS feeds for new TV episodes, then grabs, sorts and renames them. Not an AI tool; it has a documented API that an agent could call.
@@ -844,13 +912,13 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [sonicjs](https://github.com/rosaldo/sonicjs)
 
-- **What it does and how to use it with AI:** SonicJS - The edge-native headless CMS for Cloudflare Workers. Sub-100ms response times, zero cold starts, TypeScript-first. Built on D1, R2, and Hono.
+- **What it does and how to use it with AI:** Edge-native headless CMS for Cloudflare Workers, TypeScript-first and built on D1, R2 and Hono, with fast responses and no cold starts.
 - **Forked from:** [SonicJs-Org/sonicjs](https://github.com/SonicJs-Org/sonicjs)
 - **Details:** [README](https://github.com/rosaldo/sonicjs/blob/main/README.md)
 
 ### [statsforecast](https://github.com/rosaldo/statsforecast)
 
-- **What it does and how to use it with AI:** Lightning ⚡️ fast forecasting with statistical and econometric models.
+- **What it does and how to use it with AI:** Very fast time-series forecasting in Python with statistical and econometric models.
 - **Forked from:** [Nixtla/statsforecast](https://github.com/Nixtla/statsforecast)
 - **Details:** [README](https://github.com/rosaldo/statsforecast/blob/main/README.md)
 
@@ -864,7 +932,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [textbee](https://github.com/rosaldo/textbee)
 
-- **What it does and how to use it with AI:** Open-source SMS gateway. Turn your Android phone into an SMS API: send and receive SMS from your apps over REST and webhooks. Self-hostable, with a free hosted plan.
+- **What it does and how to use it with AI:** Open-source SMS gateway that turns an Android phone into an SMS API: send and receive SMS from your apps over REST and webhooks. Self-hostable, with a free hosted plan.
 - **Forked from:** [textbee/textbee](https://github.com/textbee/textbee)
 - **Details:** [README](https://github.com/rosaldo/textbee/blob/main/README.md)
 
@@ -905,6 +973,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Claude Code plugin that analyzes a project with a multi-agent pipeline and builds an interactive knowledge graph of files, functions, classes and dependencies to explore and ask questions about. Also works with Codex, Cursor, Copilot and Gemini CLI.
 - **Forked from:** [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)
 - **Details:** [README](https://github.com/rosaldo/Understand-Anything/blob/main/README.md)
+
+### [universal-modder](https://github.com/rosaldo/universal-modder)
+
+- **What it does and how to use it with AI:** Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.
+- **Forked from:** [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder)
+- **Details:** [README](https://github.com/rosaldo/universal-modder/blob/main/README.md)
 
 ### [unstract](https://github.com/rosaldo/unstract)
 
@@ -963,6 +1037,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Runs Windows inside a Docker container, with automatic download and installation, KVM acceleration, USB passthrough and shared folders. Start it with Docker Compose or `docker run` (image dockurr/windows) and use it in the browser on port 8006 or over RDP.
 - **Forked from:** [dockur/windows](https://github.com/dockur/windows)
 - **Details:** [README](https://github.com/rosaldo/windows/blob/master/readme.md)
+
+### [witr](https://github.com/rosaldo/witr)
+
+- **What it does and how to use it with AI:** Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. 
+- **Forked from:** [pranshuparmar/witr](https://github.com/pranshuparmar/witr)
+- **Details:** [README](https://github.com/rosaldo/witr/blob/main/README.md)
 
 ## X
 
