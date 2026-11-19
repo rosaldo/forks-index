@@ -2,9 +2,9 @@
 
 [\[English\]](README.md) [\[Português\]](README.pt-BR.md)
 
-[\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) \[Z\] 
+[\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-An inventory of 169 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 173 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
@@ -81,6 +81,18 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** TypeScript/React library for building production AI chat interfaces. Start with `npx assistant-ui@latest create` or add it to an existing app with `init`. Supports OpenAI, Anthropic, Gemini, Mistral, Bedrock, Ollama and others through the AI SDK.
 - **Forked from:** [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui)
 - **Details:** [README](https://github.com/rosaldo/assistant-ui/blob/main/README.md)
+
+### [astryx](https://github.com/rosaldo/astryx)
+
+- **What it does and how to use it with AI:** An open source design system that's fully customizable and agent ready
+- **Forked from:** [meta/astryx](https://github.com/meta/astryx)
+- **Details:** [README](https://github.com/rosaldo/astryx/blob/main/README.md)
+
+### [awesome-gamedev-agent-skills](https://github.com/rosaldo/awesome-gamedev-agent-skills)
+
+- **What it does and how to use it with AI:** Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines. Checked on the real engines.
+- **Forked from:** [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills)
+- **Details:** [README](https://github.com/rosaldo/awesome-gamedev-agent-skills/blob/main/README.md)
 
 ## B
 
@@ -170,6 +182,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S)
 - **Details:** [README](https://github.com/rosaldo/CL4R1T4S/blob/main/README.md)
 
+### [claude-animation-skills](https://github.com/rosaldo/claude-animation-skills)
+
+- **What it does and how to use it with AI:** Eleven Claude Code skills that make animations for reels, no footage needed: low-poly, Minecraft-style voxel, 3D cartoon explainer, Kurzgesagt-style space, Dan Koe line art, stick figure, minimal line art, 3D map route, exploded view, line graph.
+- **Forked from:** [artemnovitckii/claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills)
+- **Details:** [README](https://github.com/rosaldo/claude-animation-skills/blob/main/README.md)
+
 ### [Claude-Code-Frontend-Design-Toolkit](https://github.com/rosaldo/Claude-Code-Frontend-Design-Toolkit)
 
 - **What it does and how to use it with AI:** Curated list of 70+ tools that improve frontends made with Claude Code: design skills, theming, animation, UI/UX, testing and browser automation, plus CLAUDE.md tricks and MCP servers. Organized by what you are trying to do.
@@ -208,7 +226,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [context-mode](https://github.com/rosaldo/context-mode)
 
-- **What it does and how to use it with AI:** Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OMP, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.
+- **What it does and how to use it with AI:** Free local plugin for 11 coding agents that runs tool work in a sandbox and keeps the full output in a local SQLite index, so only the part the agent asks for reaches its context. Needs Node 24.15+; each agent has its own install command (Claude Code: `claude plugin marketplace add mksglu/context-mode`, then `claude plugin install context-mode@context-mode`).
 - **Forked from:** [mksglu/context-mode](https://github.com/mksglu/context-mode)
 - **Details:** [README](https://github.com/rosaldo/context-mode/blob/main/README.md)
 
@@ -264,7 +282,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [Dodaios](https://github.com/rosaldo/Dodaios)
 
-- **What it does and how to use it with AI:** One workspace for everything you do with AI: Claude Code, Codex and seven more coding agents side by side, one assistant that runs them, voice, and docs. Open source, on your computer, on your own plans and keys. Formerly Personal Jarvis.
+- **What it does and how to use it with AI:** Open-source Python program, run as a desktop app or a headless server with a browser UI, that turns a personal AI assistant into a control center you talk to by voice or chat and that hands work off to Claude Code or Codex terminals. Install it with the curl script on macOS/Linux or the PowerShell script on Windows, then start it with `dodaios`.
 - **Forked from:** [Dodaios/Dodaios](https://github.com/Dodaios/Dodaios)
 - **Details:** [README](https://github.com/rosaldo/Dodaios/blob/main/README.md)
 
@@ -420,7 +438,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [graphify](https://github.com/rosaldo/graphify)
 
-- **What it does and how to use it with AI:** Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
+- **What it does and how to use it with AI:** Skill for AI coding assistants that maps a project (code, docs, PDFs, images, videos) into a knowledge graph you query instead of grepping; code is parsed locally with tree-sitter, without an LLM. Needs Python 3.11+: install with `uv tool install graphifyy`, run `graphify install`, then type `/graphify .` in your assistant.
 - **Forked from:** [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 - **Details:** [README](https://github.com/rosaldo/graphify/blob/v8/README.md)
 
@@ -446,7 +464,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [headroom](https://github.com/rosaldo/headroom)
 
-- **What it does and how to use it with AI:** Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+- **What it does and how to use it with AI:** Compresses what an AI agent reads (tool outputs, logs, RAG chunks, files, conversation history) on your machine before it reaches the LLM, as a library, proxy, agent wrapper or MCP server. Call `compress(messages)` from the `headroom-ai` package, or wrap a coding agent with `headroom wrap claude`.
 - **Forked from:** [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
 - **Details:** [README](https://github.com/rosaldo/headroom/blob/main/README.md)
 
@@ -458,7 +476,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [hucre](https://github.com/rosaldo/hucre)
 
-- **What it does and how to use it with AI:** Zero-dependency spreadsheet engine. Read & write XLSX, CSV, ODS. Pure TypeScript, works everywhere.
+- **What it does and how to use it with AI:** Zero-dependency spreadsheet engine in TypeScript that reads and writes XLSX, CSV, ODS, JSON, NDJSON and XML, with schema validation and streaming. Install with `npm install hucre` and import `readXlsx`/`writeXlsx`, or a single format such as `hucre/csv`.
 - **Forked from:** [productdevbook/hucre](https://github.com/productdevbook/hucre)
 - **Details:** [README](https://github.com/rosaldo/hucre/blob/main/README.md)
 
@@ -608,7 +626,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [Next-js-Boilerplate](https://github.com/rosaldo/Next-js-Boilerplate)
 
-- **What it does and how to use it with AI:** 🚀🎉📚 Nextjs Boilerplate and Starter with App Router and Page Router support, Tailwind CSS 4 and TypeScript ⚡️ Made with developer experience first: Next.js 16 + TypeScript + ESLint + Prettier + Drizzle ORM + Husky + Lint-Staged + Vitest + Testing Library + Playwright + Storybook + Commitlint + VSCode + Sentry + PostCSS + Tailwind CSS ✨
+- **What it does and how to use it with AI:** Starter for Next.js with App Router, Tailwind CSS and TypeScript, preconfigured with ESLint, Prettier, Vitest, Playwright, Clerk authentication and DrizzleORM. Clone it with `git clone --depth=1`, run `npm install` and build your own project on top of it.
 - **Forked from:** [ixartz/Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)
 - **Details:** [README](https://github.com/rosaldo/Next-js-Boilerplate/blob/main/README.md)
 
@@ -695,20 +713,20 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 ### [orca](https://github.com/rosaldo/orca)
 
 - **What it does and how to use it with AI:** Desktop, mobile and VPS environment for running a fleet of coding agents in parallel: Codex, Claude Code, OpenCode or Pi side by side, each in its own git worktree, with your own subscriptions. Monitor and steer them from your phone.
-- **Forked from:** [stablyai/orca](https://github.com/stablyai/orca)
-- **Details:** [README](https://github.com/rosaldo/orca/blob/main/README.md)
+- **Forked from:** [https://github.com/rosaldo/orca/blob/main/README.md](https://github.com/https://github.com/rosaldo/orca/blob/main/README.md)
+- **Details:** [README](skipped: upstream no longer exists)
 
 ### [orca-plugins](https://github.com/rosaldo/orca-plugins)
 
 - **What it does and how to use it with AI:** Official plugin catalog for Orca and source of the official plugins. Orca reads it to list what you can install under Settings, Plugins; community plugins stay in their authors' repositories.
-- **Forked from:** [stablyai/orca-plugins](https://github.com/stablyai/orca-plugins)
-- **Details:** [README](https://github.com/rosaldo/orca-plugins/blob/main/README.md)
+- **Forked from:** [https://github.com/rosaldo/orca-plugins/blob/main/README.md](https://github.com/https://github.com/rosaldo/orca-plugins/blob/main/README.md)
+- **Details:** [README](skipped: upstream no longer exists)
 
 ### [orca-portuguese](https://github.com/rosaldo/orca-portuguese)
 
 - **What it does and how to use it with AI:** Official Brazilian Portuguese language pack for Orca, with over 12,000 strings covering settings, editor, terminal, integrations and the mobile app. Install it in Orca to use the interface in pt-BR; missing strings fall back to English.
-- **Forked from:** [stablyai/orca-portuguese](https://github.com/stablyai/orca-portuguese)
-- **Details:** [README](https://github.com/rosaldo/orca-portuguese/blob/main/README.md)
+- **Forked from:** [https://github.com/rosaldo/orca-portuguese/blob/main/README.md](https://github.com/https://github.com/rosaldo/orca-portuguese/blob/main/README.md)
+- **Details:** [README](skipped: upstream no longer exists)
 
 ### [orjson](https://github.com/rosaldo/orjson)
 
@@ -750,7 +768,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [photoguard](https://github.com/rosaldo/photoguard)
 
-- **What it does and how to use it with AI:** Raising the Cost of Malicious AI-Powered Image Editing
+- **What it does and how to use it with AI:** Research code (MadryLab) that protects images against editing by Stable Diffusion models through adversarial perturbations (encoder and diffusion attacks). Create the conda environment, install `requirements.txt`, then run the notebooks or the local Gradio demo.
 - **Forked from:** [MadryLab/photoguard](https://github.com/MadryLab/photoguard)
 - **Details:** [README](https://github.com/rosaldo/photoguard/blob/main/README.md)
 
@@ -768,7 +786,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [ponytail](https://github.com/rosaldo/ponytail)
 
-- **What it does and how to use it with AI:** Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+- **What it does and how to use it with AI:** Single prompt (skill) that makes an AI coding agent write the smallest complete change, without cutting validation, error handling, security or accessibility, plus `/ponytail-review` and `/ponytail-audit`. Install as a plugin in Claude Code or Codex, or copy `AGENTS.md` into the project for other agents.
 - **Forked from:** [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
 - **Details:** [README](https://github.com/rosaldo/ponytail/blob/main/README.md)
 
@@ -794,7 +812,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [quivr](https://github.com/rosaldo/quivr)
 
-- **What it does and how to use it with AI:** An open-source engine that turns continuous content streams into search and monitoring. Durable ingestion, hybrid search, alerts, and plugins for formats, models and business rules.
+- **What it does and how to use it with AI:** Open-source engine for content that keeps arriving (articles, emails, posts, PDFs, RSS, Microsoft 365, X lists): it keeps every version, searches by keywords or meaning and records matches for saved alerts. Your application talks to it over an HTTP API; locally it starts in Docker with `make dev`.
 - **Forked from:** [The-Vibe-Company/quivr](https://github.com/The-Vibe-Company/quivr)
 - **Details:** [README](https://github.com/rosaldo/quivr/blob/main/README.md)
 
@@ -850,7 +868,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [rtk](https://github.com/rosaldo/rtk)
 
-- **What it does and how to use it with AI:** CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- **What it does and how to use it with AI:** CLI that compresses command output (tests, diffs, logs, builds) before an AI coding agent reads it, for 100+ commands, with pipelines to go further. Install with brew, winget or the install script, run `rtk init -g` for Claude Code and see savings with `rtk gain`.
 - **Forked from:** [rtk-ai/rtk](https://github.com/rtk-ai/rtk)
 - **Details:** [README](https://github.com/rosaldo/rtk/blob/develop/README.md)
 
@@ -900,7 +918,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [slim](https://github.com/rosaldo/slim)
 
-- **What it does and how to use it with AI:** Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)
+- **What it does and how to use it with AI:** SlimToolkit (formerly DockerSlim), a CNCF Sandbox CLI to inspect, optimize and debug containers: it minifies images without changing them and generates Seccomp and AppArmor profiles. Install with the install script or `brew install docker-slim`, then run `slim build --target <image>`.
 - **Forked from:** [slimtoolkit/slim](https://github.com/slimtoolkit/slim)
 - **Details:** [README](https://github.com/rosaldo/slim/blob/master/README.md)
 
@@ -976,7 +994,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [universal-modder](https://github.com/rosaldo/universal-modder)
 
-- **What it does and how to use it with AI:** Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.
+- **What it does and how to use it with AI:** Skills, tools and a shared knowledge base that let an AI coding agent mod PC games you own, from reading the game code to building and testing the mod, with art, 3D and sound made through fal. Install as a plugin in Claude Code, Codex or Gemini CLI, or with `npx skills add`; assets need a fal API key.
 - **Forked from:** [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder)
 - **Details:** [README](https://github.com/rosaldo/universal-modder/blob/main/README.md)
 
@@ -1040,7 +1058,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [witr](https://github.com/rosaldo/witr)
 
-- **What it does and how to use it with AI:** Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. 
+- **What it does and how to use it with AI:** CLI that answers "why is this running?" by tracing a process, port, container or file back to the chain that started it, as a report, JSON or interactive TUI. Single static binary for Linux, macOS, FreeBSD and Windows: install with the install script, brew or `go install`, then run e.g. `witr --port 8080`.
 - **Forked from:** [pranshuparmar/witr](https://github.com/pranshuparmar/witr)
 - **Details:** [README](https://github.com/rosaldo/witr/blob/main/README.md)
 
@@ -1071,3 +1089,11 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Self-hosted AI agent that runs a YouTube channel end to end: researches topics, writes scripts, generates narration and visuals, assembles MP4s and publishes after your approval. Runs on your machine with your own keys (Gemini, OpenAI, OpenRouter, DeepSeek).
 - **Forked from:** [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent)
 - **Details:** [README](https://github.com/rosaldo/youtube-automation-agent/blob/master/README.md)
+
+## Z
+
+### [zvec](https://github.com/rosaldo/zvec)
+
+- **What it does and how to use it with AI:** A lightweight, lightning-fast, in-process vector database
+- **Forked from:** [alibaba/zvec](https://github.com/alibaba/zvec)
+- **Details:** [README](https://github.com/rosaldo/zvec/blob/main/README.md)
