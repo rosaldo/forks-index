@@ -4,11 +4,17 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-An inventory of 177 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 178 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ## A
+
+### [ACE-Step-1.5](https://github.com/rosaldo/ACE-Step-1.5)
+
+- **What it does and how to use it with AI:** The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.
+- **Forked from:** [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5)
+- **Details:** [README](https://github.com/rosaldo/ACE-Step-1.5/blob/main/README.md)
 
 ### [agency-agents](https://github.com/rosaldo/agency-agents)
 
@@ -556,7 +562,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [LongCat-Video](https://github.com/rosaldo/LongCat-Video)
 
-- **What it does and how to use it with AI:** —
+- **What it does and how to use it with AI:** Meituan's 13.6B-parameter open video generation model that does text-to-video, image-to-video and video continuation in one framework, producing minutes-long 720p/30fps videos without color drift. Clone it, install the Python dependencies with torch and flash-attn, download the weights from Hugging Face and run the demo scripts on a GPU. MIT license.
 - **Forked from:** [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video)
 - **Details:** [README](https://github.com/rosaldo/LongCat-Video/blob/main/README.md)
 
@@ -582,7 +588,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [marketingskills](https://github.com/rosaldo/marketingskills)
 
-- **What it does and how to use it with AI:** Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+- **What it does and how to use it with AI:** Marketing skills for Claude Code and other AI agents: CRO, copywriting, SEO, paid ads, analytics, retention, sales and growth strategy, all building on a shared product-marketing context. Install them with `npx skills add coreyhaines31/marketingskills` and your agent applies the right workflow when you work on a marketing task. MIT license.
 - **Forked from:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 - **Details:** [README](https://github.com/rosaldo/marketingskills/blob/main/README.md)
 
@@ -1064,7 +1070,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [whaticket-community](https://github.com/rosaldo/whaticket-community)
 
-- **What it does and how to use it with AI:** A very simple Ticket System based on WhatsApp messages, that allow multi-users in same WhatsApp account.
+- **What it does and how to use it with AI:** Open-source WhatsApp ticketing system: several agents answer from one WhatsApp number and every conversation becomes a ticket. Node.js/TypeScript backend with MySQL/MariaDB and a React web app; self-host it with Docker after setting the database password and JWT secrets in `.env`. MIT license.
 - **Forked from:** [canove/whaticket-community](https://github.com/canove/whaticket-community)
 - **Details:** [README](https://github.com/rosaldo/whaticket-community/blob/master/README.md)
 

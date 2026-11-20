@@ -1,12 +1,13 @@
 # forks-index
 
-> Inventory of 177 open source projects forked by rosaldo: AI coding agents, agent skills, MCP servers, LLM gateways, local LLM inference, RAG and related tools, each with how to use it with an AI.
+> Inventory of 178 open source projects forked by rosaldo: AI coding agents, agent skills, MCP servers, LLM gateways, local LLM inference, RAG and related tools, each with how to use it with an AI.
 
 - [English README](README.md)
 - [README em português](README.pt-BR.md)
 
 ## Projects
 
+- [ACE-Step-1.5](https://github.com/rosaldo/ACE-Step-1.5): The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.
 - [agency-agents](https://github.com/rosaldo/agency-agents): Roster of specialized AI agent personas (frontend, marketing, QA, reality checker and more), each with its own processes and deliverables. Install them into Claude Code, Cursor, Codex or Gemini through the native app or the scripts, then call the agent you need by name.
 - [agent-browser](https://github.com/rosaldo/agent-browser): Fast native Rust CLI that gives AI agents a real browser to automate. Install it with npm or brew, run `agent-browser install` to download Chrome, then let your coding agent drive pages through shell commands.
 - [agent-os](https://github.com/rosaldo/agent-os): Structured workflows that capture your standards, stack and codebase details so AI coding agents get proper specs. Works with Claude Code, Cursor or any AI coding tool, on new products or existing codebases, in any language.
@@ -94,11 +95,11 @@
 - [litellm](https://github.com/rosaldo/litellm): Open-source AI gateway to call 100+ LLM providers (OpenAI, Anthropic, Gemini, Bedrock, Azure and more) in the OpenAI format, with cost tracking, guardrails, load balancing and logging. Use the Python SDK or deploy the proxy server and point your agents at it.
 - [LitServe](https://github.com/rosaldo/LitServe): Minimal Python framework for custom AI inference servers: define the logic for models, agents, RAG or pipelines with control over batching, streaming and multi-GPU autoscaling, without MLOps glue. Self-host it or use the managed option.
 - [LocalAI](https://github.com/rosaldo/LocalAI): Open-source engine to run LLMs, vision, voice, image and video models on your own hardware, no GPU required. Exposes OpenAI-, Anthropic- and ElevenLabs-compatible APIs, so existing tools can point at it, and includes agents with tools, RAG, MCP and skills.
-- [LongCat-Video](https://github.com/rosaldo/LongCat-Video): 
+- [LongCat-Video](https://github.com/rosaldo/LongCat-Video): Meituan's 13.6B-parameter open video generation model that does text-to-video, image-to-video and video continuation in one framework, producing minutes-long 720p/30fps videos without color drift. Clone it, install the Python dependencies with torch and flash-attn, download the weights from Hugging Face and run the demo scripts on a GPU. MIT license.
 - [LongCat-Video-Avatar](https://github.com/rosaldo/LongCat-Video-Avatar): Model for audio-driven character animation: Audio-Text-to-Video, Audio-Text-Image-to-Video and video continuation, with single or multiple audio streams. The repository is the project homepage, with technical report, code and model weights.
 - [magika](https://github.com/rosaldo/magika): Fast and accurate AI-powered detection of a file's content type, from the bytes rather than the extension.
 - [manim](https://github.com/rosaldo/manim): ManimGL, the engine 3Blue1Brown created for precise programmatic animations in explanatory math videos. Install the `manimgl` package, not `manim`, which is the separate community edition. Needs FFmpeg and OpenGL; LaTeX is optional. Not an AI tool, but scenes are Python code that an agent can write.
-- [marketingskills](https://github.com/rosaldo/marketingskills): Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+- [marketingskills](https://github.com/rosaldo/marketingskills): Marketing skills for Claude Code and other AI agents: CRO, copywriting, SEO, paid ads, analytics, retention, sales and growth strategy, all building on a shared product-marketing context. Install them with `npx skills add coreyhaines31/marketingskills` and your agent applies the right workflow when you work on a marketing task. MIT license.
 - [mc](https://github.com/rosaldo/mc): GNU Midnight Commander, a text-mode full-screen file manager for the console and terminal emulators. Not an AI tool; a companion for working on servers alongside terminal agents.
 - [meetily](https://github.com/rosaldo/meetily): Privacy-first AI meeting note taker for Windows, macOS and Linux: on-device Whisper/Parakeet transcription and summaries from a local model, with no meeting bot; only the transcript leaves the machine, and only if you pick a cloud model for summaries. Install from the release installers or the one-line Linux script.
 - [memanto](https://github.com/rosaldo/memanto): Memory agent that manages the memories of your other AI agents: what to keep, what conflicts, what expires and who needs to know. Install with pip, npm or Go and connect it to the agents you already use.
@@ -175,7 +176,7 @@
 - [WA-AKG](https://github.com/rosaldo/WA-AKG): Self-hosted WhatsApp gateway and dashboard with Next.js and Baileys: multiple sessions, scheduled messages, auto-replies and webhooks. It has no AI of its own; webhooks and its API let you connect an AI agent to WhatsApp.
 - [wagmi](https://github.com/rosaldo/wagmi): Reactive primitives for Ethereum apps: React Hooks that work with viem and TanStack Query, plus packages for Vue and Solid, wallet connectors and a CLI. Not an AI tool; building blocks for an agent writing a dApp interface.
 - [Wan2GP](https://github.com/rosaldo/Wan2GP): WanGP, an app for open-source generative models of video, image, audio and text-to-speech on modest GPUs (select models from 6 GB VRAM, older Nvidia and AMD). Includes a prompt enhancer and Deepy, an offline agent that orchestrates generation jobs.
-- [whaticket-community](https://github.com/rosaldo/whaticket-community): A very simple Ticket System based on WhatsApp messages, that allow multi-users in same WhatsApp account.
+- [whaticket-community](https://github.com/rosaldo/whaticket-community): Open-source WhatsApp ticketing system: several agents answer from one WhatsApp number and every conversation becomes a ticket. Node.js/TypeScript backend with MySQL/MariaDB and a React web app; self-host it with Docker after setting the database password and JWT secrets in `.env`. MIT license.
 - [whatsmeow](https://github.com/rosaldo/whatsmeow): Go library for the WhatsApp web multidevice API: send and receive messages and media in private chats and groups. No AI of its own; a building block for connecting an AI agent to WhatsApp from Go.
 - [windows](https://github.com/rosaldo/windows): Runs Windows inside a Docker container, with automatic download and installation, KVM acceleration, USB passthrough and shared folders. Start it with Docker Compose or `docker run` (image dockurr/windows) and use it in the browser on port 8006 or over RDP.
 - [witr](https://github.com/rosaldo/witr): CLI that answers "why is this running?" by tracing a process, port, container or file back to the chain that started it, as a report, JSON or interactive TUI. Single static binary for Linux, macOS, FreeBSD and Windows: install with the install script, brew or `go install`, then run e.g. `witr --port 8080`.

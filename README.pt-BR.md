@@ -4,11 +4,17 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-Um inventário de 177 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 178 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
 ## A
+
+### [ACE-Step-1.5](https://github.com/rosaldo/ACE-Step-1.5)
+
+- **O que faz e como usar com IA:** The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.
+- **Fork de:** [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5)
+- **Detalhes:** [README](https://github.com/rosaldo/ACE-Step-1.5/blob/main/README.md)
 
 ### [agency-agents](https://github.com/rosaldo/agency-agents)
 
@@ -556,7 +562,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [LongCat-Video](https://github.com/rosaldo/LongCat-Video)
 
-- **O que faz e como usar com IA:** —
+- **O que faz e como usar com IA:** Modelo aberto de geração de vídeo da Meituan, com 13,6 bilhões de parâmetros, que faz texto→vídeo, imagem→vídeo e continuação de vídeo num só framework, gerando vídeos de minutos em 720p/30fps sem desvio de cor. Clone, instale as dependências Python com torch e flash-attn, baixe os pesos do Hugging Face e rode os scripts de demonstração numa GPU. Licença MIT.
 - **Fork de:** [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video)
 - **Detalhes:** [README](https://github.com/rosaldo/LongCat-Video/blob/main/README.md)
 
@@ -582,7 +588,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [marketingskills](https://github.com/rosaldo/marketingskills)
 
-- **O que faz e como usar com IA:** Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+- **O que faz e como usar com IA:** Skills de marketing para o Claude Code e outros agentes de IA: CRO, copywriting, SEO, anúncios pagos, analytics, retenção, vendas e estratégia de crescimento, todas apoiadas num contexto comum de marketing do produto. Instale com `npx skills add coreyhaines31/marketingskills` e seu agente aplica o fluxo certo quando você trabalha numa tarefa de marketing. Licença MIT.
 - **Fork de:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 - **Detalhes:** [README](https://github.com/rosaldo/marketingskills/blob/main/README.md)
 
@@ -1064,7 +1070,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [whaticket-community](https://github.com/rosaldo/whaticket-community)
 
-- **O que faz e como usar com IA:** A very simple Ticket System based on WhatsApp messages, that allow multi-users in same WhatsApp account.
+- **O que faz e como usar com IA:** Sistema de tickets de código aberto para WhatsApp: vários atendentes respondem pelo mesmo número e cada conversa vira um ticket. Backend em Node.js/TypeScript com MySQL/MariaDB e app web em React; hospede você mesmo com Docker depois de definir a senha do banco e os segredos JWT no `.env`. Licença MIT.
 - **Fork de:** [canove/whaticket-community](https://github.com/canove/whaticket-community)
 - **Detalhes:** [README](https://github.com/rosaldo/whaticket-community/blob/master/README.md)
 
