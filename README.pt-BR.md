@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-Um inventário de 178 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 179 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
@@ -12,7 +12,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [ACE-Step-1.5](https://github.com/rosaldo/ACE-Step-1.5)
 
-- **O que faz e como usar com IA:** The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.
+- **O que faz e como usar com IA:** Modelo aberto de geração de música que faz canções completas de 10 segundos a 10 minutos em hardware comum, com letras em mais de 50 idiomas, mais de 1000 estilos, covers, regravação de trechos, separação de faixas e treino de LoRA. Instale com uv no Python 3.11-3.12 e rode o app Gradio em CUDA, Apple Silicon, AMD, Intel ou CPU. Licença MIT.
 - **Fork de:** [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5)
 - **Detalhes:** [README](https://github.com/rosaldo/ACE-Step-1.5/blob/main/README.md)
 
@@ -597,6 +597,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** GNU Midnight Commander, gerenciador de arquivos em tela cheia e modo texto para console e emuladores de terminal. Não é uma ferramenta de IA; um companheiro para trabalhar em servidores ao lado de agentes de terminal.
 - **Fork de:** [MidnightCommander/mc](https://github.com/MidnightCommander/mc)
 - **Detalhes:** [README](https://github.com/rosaldo/mc/blob/master/README)
+
+### [mcp-3D-printer-server](https://github.com/rosaldo/mcp-3D-printer-server)
+
+- **O que faz e como usar com IA:** Connects MCP to major 3D printer APIs (Orca, FULU's Orca/Bambu, OctoPrint, Klipper, Duet, Repetier, Prusa, Creality). Control prints, monitor status, and perform advanced STL operations like scaling, rotation, sectional editing, and base extension. Includes slicing and visualization.
+- **Fork de:** [DMontgomery40/mcp-3D-printer-server](https://github.com/DMontgomery40/mcp-3D-printer-server)
+- **Detalhes:** [README](https://github.com/rosaldo/mcp-3D-printer-server/blob/main/README.md)
 
 ### [meetily](https://github.com/rosaldo/meetily)
 

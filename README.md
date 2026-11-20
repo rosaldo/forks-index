@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-An inventory of 178 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 179 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
@@ -12,7 +12,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [ACE-Step-1.5](https://github.com/rosaldo/ACE-Step-1.5)
 
-- **What it does and how to use it with AI:** The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.
+- **What it does and how to use it with AI:** Open-source music generation model that makes full songs from 10 seconds to 10 minutes on consumer hardware, with lyrics in 50+ languages, 1000+ styles, covers, repainting, stem separation and LoRA training. Install with uv on Python 3.11-3.12, then run the Gradio app on CUDA, Apple Silicon, AMD, Intel or CPU. MIT license.
 - **Forked from:** [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5)
 - **Details:** [README](https://github.com/rosaldo/ACE-Step-1.5/blob/main/README.md)
 
@@ -597,6 +597,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** GNU Midnight Commander, a text-mode full-screen file manager for the console and terminal emulators. Not an AI tool; a companion for working on servers alongside terminal agents.
 - **Forked from:** [MidnightCommander/mc](https://github.com/MidnightCommander/mc)
 - **Details:** [README](https://github.com/rosaldo/mc/blob/master/README)
+
+### [mcp-3D-printer-server](https://github.com/rosaldo/mcp-3D-printer-server)
+
+- **What it does and how to use it with AI:** Connects MCP to major 3D printer APIs (Orca, FULU's Orca/Bambu, OctoPrint, Klipper, Duet, Repetier, Prusa, Creality). Control prints, monitor status, and perform advanced STL operations like scaling, rotation, sectional editing, and base extension. Includes slicing and visualization.
+- **Forked from:** [DMontgomery40/mcp-3D-printer-server](https://github.com/DMontgomery40/mcp-3D-printer-server)
+- **Details:** [README](https://github.com/rosaldo/mcp-3D-printer-server/blob/main/README.md)
 
 ### [meetily](https://github.com/rosaldo/meetily)
 

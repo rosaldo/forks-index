@@ -1,13 +1,13 @@
 # forks-index
 
-> Inventory of 178 open source projects forked by rosaldo: AI coding agents, agent skills, MCP servers, LLM gateways, local LLM inference, RAG and related tools, each with how to use it with an AI.
+> Inventory of 179 open source projects forked by rosaldo: AI coding agents, agent skills, MCP servers, LLM gateways, local LLM inference, RAG and related tools, each with how to use it with an AI.
 
 - [English README](README.md)
 - [README em português](README.pt-BR.md)
 
 ## Projects
 
-- [ACE-Step-1.5](https://github.com/rosaldo/ACE-Step-1.5): The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.
+- [ACE-Step-1.5](https://github.com/rosaldo/ACE-Step-1.5): Open-source music generation model that makes full songs from 10 seconds to 10 minutes on consumer hardware, with lyrics in 50+ languages, 1000+ styles, covers, repainting, stem separation and LoRA training. Install with uv on Python 3.11-3.12, then run the Gradio app on CUDA, Apple Silicon, AMD, Intel or CPU. MIT license.
 - [agency-agents](https://github.com/rosaldo/agency-agents): Roster of specialized AI agent personas (frontend, marketing, QA, reality checker and more), each with its own processes and deliverables. Install them into Claude Code, Cursor, Codex or Gemini through the native app or the scripts, then call the agent you need by name.
 - [agent-browser](https://github.com/rosaldo/agent-browser): Fast native Rust CLI that gives AI agents a real browser to automate. Install it with npm or brew, run `agent-browser install` to download Chrome, then let your coding agent drive pages through shell commands.
 - [agent-os](https://github.com/rosaldo/agent-os): Structured workflows that capture your standards, stack and codebase details so AI coding agents get proper specs. Works with Claude Code, Cursor or any AI coding tool, on new products or existing codebases, in any language.
@@ -101,6 +101,7 @@
 - [manim](https://github.com/rosaldo/manim): ManimGL, the engine 3Blue1Brown created for precise programmatic animations in explanatory math videos. Install the `manimgl` package, not `manim`, which is the separate community edition. Needs FFmpeg and OpenGL; LaTeX is optional. Not an AI tool, but scenes are Python code that an agent can write.
 - [marketingskills](https://github.com/rosaldo/marketingskills): Marketing skills for Claude Code and other AI agents: CRO, copywriting, SEO, paid ads, analytics, retention, sales and growth strategy, all building on a shared product-marketing context. Install them with `npx skills add coreyhaines31/marketingskills` and your agent applies the right workflow when you work on a marketing task. MIT license.
 - [mc](https://github.com/rosaldo/mc): GNU Midnight Commander, a text-mode full-screen file manager for the console and terminal emulators. Not an AI tool; a companion for working on servers alongside terminal agents.
+- [mcp-3D-printer-server](https://github.com/rosaldo/mcp-3D-printer-server): Connects MCP to major 3D printer APIs (Orca, FULU's Orca/Bambu, OctoPrint, Klipper, Duet, Repetier, Prusa, Creality). Control prints, monitor status, and perform advanced STL operations like scaling, rotation, sectional editing, and base extension. Includes slicing and visualization.
 - [meetily](https://github.com/rosaldo/meetily): Privacy-first AI meeting note taker for Windows, macOS and Linux: on-device Whisper/Parakeet transcription and summaries from a local model, with no meeting bot; only the transcript leaves the machine, and only if you pick a cloud model for summaries. Install from the release installers or the one-line Linux script.
 - [memanto](https://github.com/rosaldo/memanto): Memory agent that manages the memories of your other AI agents: what to keep, what conflicts, what expires and who needs to know. Install with pip, npm or Go and connect it to the agents you already use.
 - [milvus](https://github.com/rosaldo/milvus): High-performance, cloud-native vector database for searching unstructured data at scale. The vector store behind RAG and agent memory, with integrations for LangChain, LlamaIndex, OpenAI and Hugging Face.
