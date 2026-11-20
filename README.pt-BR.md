@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-Um inventário de 173 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 174 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
@@ -84,13 +84,13 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [astryx](https://github.com/rosaldo/astryx)
 
-- **O que faz e como usar com IA:** An open source design system that's fully customizable and agent ready
+- **O que faz e como usar com IA:** Design system aberto em React 19, da Meta, com mais de 150 componentes acessíveis, temas por variáveis CSS, modo escuro, templates e uma CLI. Instale com npm, pnpm ou yarn e rode `astryx init`, que também grava o guia em AGENTS.md/CLAUDE.md para os agentes de código construírem do mesmo jeito que você.
 - **Fork de:** [meta/astryx](https://github.com/meta/astryx)
 - **Detalhes:** [README](https://github.com/rosaldo/astryx/blob/main/README.md)
 
 ### [awesome-gamedev-agent-skills](https://github.com/rosaldo/awesome-gamedev-agent-skills)
 
-- **O que faz e como usar com IA:** Make games with your AI coding agent: 79 game-dev skills and a router for Godot, Unity, Unreal, Roblox, three.js, Phaser and 6 more engines. Checked on the real engines.
+- **O que faz e como usar com IA:** 79 skills de desenvolvimento de jogos para agentes de IA em 12 engines (Godot, Unity, Unreal, Roblox, three.js, Phaser e outras), com um roteador que carrega as 2 ou 3 certas para sua engine e tarefa. Instale tudo com `npx skills add gamedev-skills/awesome-gamedev-agent-skills` e descreva o que você está construindo.
 - **Fork de:** [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills)
 - **Detalhes:** [README](https://github.com/rosaldo/awesome-gamedev-agent-skills/blob/main/README.md)
 
@@ -184,7 +184,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [claude-animation-skills](https://github.com/rosaldo/claude-animation-skills)
 
-- **O que faz e como usar com IA:** Eleven Claude Code skills that make animations for reels, no footage needed: low-poly, Minecraft-style voxel, 3D cartoon explainer, Kurzgesagt-style space, Dan Koe line art, stick figure, minimal line art, 3D map route, exploded view, line graph.
+- **O que faz e como usar com IA:** Skills do Claude Code que fazem animações para reels sem filmagem (rota em mapa 3D, vista explodida, gráfico de linha, bonecos de palito, low-poly, voxel e outros estilos), renderizadas no seu próprio computador. Precisa de ffmpeg, Node.js e Python; clone e rode `./install.sh`, ou instale como plugin do Claude Code.
 - **Fork de:** [artemnovitckii/claude-animation-skills](https://github.com/artemnovitckii/claude-animation-skills)
 - **Detalhes:** [README](https://github.com/rosaldo/claude-animation-skills/blob/main/README.md)
 
@@ -654,7 +654,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 - **O que faz e como usar com IA:** Gateway de IA gratuito: um endpoint para muitos provedores e modelos, com troca automática conforme a cota e compressão de tokens. Aponte Claude Code, Codex, Cursor, OpenCode, Cline ou Copilot para ele e continue programando quando um provedor acabar. Inclui CLI, MCP e app de desktop.
 - **Fork de:** [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute)
-- **Detalhes:** [README](https://github.com/rosaldo/OmniRoute/blob/release/v3.8.51/README.md)
+- **Detalhes:** [README](https://github.com/rosaldo/OmniRoute/blob/release/v3.8.55/README.md)
 
 ### [openclaw](https://github.com/rosaldo/openclaw)
 
@@ -692,6 +692,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [FoundationAgents/OpenManus](https://github.com/FoundationAgents/OpenManus)
 - **Detalhes:** [README](https://github.com/rosaldo/OpenManus/blob/main/README.md)
 
+### [OpenMausBot](https://github.com/rosaldo/OpenMausBot)
+
+- **O que faz e como usar com IA:** Alternativa open source ao Grok Bot: um app de chat em que cada contato é um agente de IA real, com personalidade, modelo, computador na nuvem e apps conectados próprios. Baixe o app para macOS, Windows ou Ubuntu 24.04, faça login na CLI claude, codex ou grok da sua máquina e converse com seus bots, aprovando o que importa.
+- **Fork de:** [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)
+- **Detalhes:** [README](https://github.com/rosaldo/OpenMausBot/blob/main/README.md)
+
 ### [OpenMontage](https://github.com/rosaldo/OpenMontage)
 
 - **O que faz e como usar com IA:** Sistema de produção de vídeo com agentes: 12 pipelines, mais de 100 ferramentas e mais de 700 arquivos de skills e conhecimento que transformam seu assistente de código em um estúdio de vídeo. Abra o repositório no assistente e descreva o vídeo que quer.
@@ -713,20 +719,20 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 ### [orca](https://github.com/rosaldo/orca)
 
 - **O que faz e como usar com IA:** Ambiente para desktop, celular e VPS que roda uma frota de agentes de código em paralelo: Codex, Claude Code, OpenCode ou Pi lado a lado, cada um em sua git worktree, com suas próprias assinaturas. Acompanhe e comande pelo celular.
-- **Fork de:** [https://github.com/rosaldo/orca/blob/main/README.md](https://github.com/https://github.com/rosaldo/orca/blob/main/README.md)
-- **Detalhes:** [README](skipped: upstream no longer exists)
+- **Fork de:** [stablyai/orca](https://github.com/stablyai/orca)
+- **Detalhes:** [README](https://github.com/rosaldo/orca/blob/main/README.md)
 
 ### [orca-plugins](https://github.com/rosaldo/orca-plugins)
 
 - **O que faz e como usar com IA:** Catálogo oficial de plugins do Orca e fonte dos plugins oficiais. O Orca lê esse catálogo para mostrar o que pode ser instalado em Configurações, Plugins; os plugins da comunidade ficam nos repositórios dos autores.
-- **Fork de:** [https://github.com/rosaldo/orca-plugins/blob/main/README.md](https://github.com/https://github.com/rosaldo/orca-plugins/blob/main/README.md)
-- **Detalhes:** [README](skipped: upstream no longer exists)
+- **Fork de:** [stablyai/orca-plugins](https://github.com/stablyai/orca-plugins)
+- **Detalhes:** [README](https://github.com/rosaldo/orca-plugins/blob/main/README.md)
 
 ### [orca-portuguese](https://github.com/rosaldo/orca-portuguese)
 
 - **O que faz e como usar com IA:** Pacote oficial de português do Brasil para o Orca, com mais de 12 mil textos cobrindo configurações, editor, terminal, integrações e o app de celular. Instale no Orca para usar a interface em pt-BR; textos ausentes caem para o inglês.
-- **Fork de:** [https://github.com/rosaldo/orca-portuguese/blob/main/README.md](https://github.com/https://github.com/rosaldo/orca-portuguese/blob/main/README.md)
-- **Detalhes:** [README](skipped: upstream no longer exists)
+- **Fork de:** [stablyai/orca-portuguese](https://github.com/stablyai/orca-portuguese)
+- **Detalhes:** [README](https://github.com/rosaldo/orca-portuguese/blob/main/README.md)
 
 ### [orjson](https://github.com/rosaldo/orjson)
 
@@ -926,7 +932,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 - **O que faz e como usar com IA:** PVR para Usenet e BitTorrent: monitora feeds RSS em busca de novos episódios de séries, depois baixa, organiza e renomeia. Não é uma ferramenta de IA; tem uma API documentada que um agente pode chamar.
 - **Fork de:** [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)
-- **Detalhes:** [README](https://github.com/rosaldo/Sonarr/blob/v5-develop/README.md)
+- **Detalhes:** [README](https://github.com/rosaldo/Sonarr/blob/develop/README.md)
 
 ### [sonicjs](https://github.com/rosaldo/sonicjs)
 
@@ -1094,6 +1100,6 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [zvec](https://github.com/rosaldo/zvec)
 
-- **O que faz e como usar com IA:** A lightweight, lightning-fast, in-process vector database
+- **O que faz e como usar com IA:** Banco de dados vetorial embutido no processo, da Alibaba, que roda dentro da sua aplicação, com vetores densos e esparsos, busca de texto completo e híbrida e log de escrita antecipada (WAL). Instale o SDK para Python, Node.js, Go, Rust, Java ou Dart e busque localmente, sem servidor e sem configuração.
 - **Fork de:** [alibaba/zvec](https://github.com/alibaba/zvec)
 - **Detalhes:** [README](https://github.com/rosaldo/zvec/blob/main/README.md)
