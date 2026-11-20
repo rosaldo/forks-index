@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-Um inventário de 174 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 177 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
@@ -554,6 +554,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [mudler/LocalAI](https://github.com/mudler/LocalAI)
 - **Detalhes:** [README](https://github.com/rosaldo/LocalAI/blob/master/README.md)
 
+### [LongCat-Video](https://github.com/rosaldo/LongCat-Video)
+
+- **O que faz e como usar com IA:** —
+- **Fork de:** [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video)
+- **Detalhes:** [README](https://github.com/rosaldo/LongCat-Video/blob/main/README.md)
+
 ### [LongCat-Video-Avatar](https://github.com/rosaldo/LongCat-Video-Avatar)
 
 - **O que faz e como usar com IA:** Modelo para animação de personagens guiada por áudio: áudio e texto para vídeo, áudio, texto e imagem para vídeo e continuação de vídeo, com um ou vários fluxos de áudio. O repositório é a página do projeto, com relatório técnico, código e pesos do modelo.
@@ -573,6 +579,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** ManimGL, o motor criado pelo 3Blue1Brown para animações programáticas precisas em vídeos explicativos de matemática. Instale o pacote `manimgl`, não o `manim`, que é a edição separada da comunidade. Precisa de FFmpeg e OpenGL; LaTeX é opcional. Não é uma ferramenta de IA, mas as cenas são código Python que um agente pode escrever.
 - **Fork de:** [3b1b/manim](https://github.com/3b1b/manim)
 - **Detalhes:** [README](https://github.com/rosaldo/manim/blob/master/README.md)
+
+### [marketingskills](https://github.com/rosaldo/marketingskills)
+
+- **O que faz e como usar com IA:** Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+- **Fork de:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+- **Detalhes:** [README](https://github.com/rosaldo/marketingskills/blob/main/README.md)
 
 ### [mc](https://github.com/rosaldo/mc)
 
@@ -1049,6 +1061,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** WanGP, app para modelos generativos de código aberto de vídeo, imagem, áudio e texto para fala em GPUs modestas (alguns modelos a partir de 6 GB de VRAM, Nvidia antigas e AMD). Inclui melhorador de prompt e o Deepy, agente offline que orquestra os trabalhos de geração.
 - **Fork de:** [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP)
 - **Detalhes:** [README](https://github.com/rosaldo/Wan2GP/blob/main/README.md)
+
+### [whaticket-community](https://github.com/rosaldo/whaticket-community)
+
+- **O que faz e como usar com IA:** A very simple Ticket System based on WhatsApp messages, that allow multi-users in same WhatsApp account.
+- **Fork de:** [canove/whaticket-community](https://github.com/canove/whaticket-community)
+- **Detalhes:** [README](https://github.com/rosaldo/whaticket-community/blob/master/README.md)
 
 ### [whatsmeow](https://github.com/rosaldo/whatsmeow)
 

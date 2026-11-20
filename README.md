@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-An inventory of 174 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 177 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
@@ -554,6 +554,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Forked from:** [mudler/LocalAI](https://github.com/mudler/LocalAI)
 - **Details:** [README](https://github.com/rosaldo/LocalAI/blob/master/README.md)
 
+### [LongCat-Video](https://github.com/rosaldo/LongCat-Video)
+
+- **What it does and how to use it with AI:** —
+- **Forked from:** [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video)
+- **Details:** [README](https://github.com/rosaldo/LongCat-Video/blob/main/README.md)
+
 ### [LongCat-Video-Avatar](https://github.com/rosaldo/LongCat-Video-Avatar)
 
 - **What it does and how to use it with AI:** Model for audio-driven character animation: Audio-Text-to-Video, Audio-Text-Image-to-Video and video continuation, with single or multiple audio streams. The repository is the project homepage, with technical report, code and model weights.
@@ -573,6 +579,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** ManimGL, the engine 3Blue1Brown created for precise programmatic animations in explanatory math videos. Install the `manimgl` package, not `manim`, which is the separate community edition. Needs FFmpeg and OpenGL; LaTeX is optional. Not an AI tool, but scenes are Python code that an agent can write.
 - **Forked from:** [3b1b/manim](https://github.com/3b1b/manim)
 - **Details:** [README](https://github.com/rosaldo/manim/blob/master/README.md)
+
+### [marketingskills](https://github.com/rosaldo/marketingskills)
+
+- **What it does and how to use it with AI:** Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+- **Forked from:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+- **Details:** [README](https://github.com/rosaldo/marketingskills/blob/main/README.md)
 
 ### [mc](https://github.com/rosaldo/mc)
 
@@ -1049,6 +1061,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** WanGP, an app for open-source generative models of video, image, audio and text-to-speech on modest GPUs (select models from 6 GB VRAM, older Nvidia and AMD). Includes a prompt enhancer and Deepy, an offline agent that orchestrates generation jobs.
 - **Forked from:** [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP)
 - **Details:** [README](https://github.com/rosaldo/Wan2GP/blob/main/README.md)
+
+### [whaticket-community](https://github.com/rosaldo/whaticket-community)
+
+- **What it does and how to use it with AI:** A very simple Ticket System based on WhatsApp messages, that allow multi-users in same WhatsApp account.
+- **Forked from:** [canove/whaticket-community](https://github.com/canove/whaticket-community)
+- **Details:** [README](https://github.com/rosaldo/whaticket-community/blob/master/README.md)
 
 ### [whatsmeow](https://github.com/rosaldo/whatsmeow)
 
