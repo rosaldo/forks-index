@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-Um inventário de 179 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
+Um inventário de 184 projetos de código aberto com fork feito por [rosaldo](https://github.com/rosaldo), explicados para você saber o que cada um faz e como usar com uma IA sem precisar abrir o projeto. Cobre agentes de código com IA (Claude Code, Codex, Cursor, OpenCode), skills de agentes, servidores MCP, gateways de LLM, inferência local de LLM, RAG e extração de documentos, além das ferramentas em volta deles.
 
 Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma compacta.
 
@@ -320,6 +320,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ## F
 
+### [FFmpeg](https://github.com/rosaldo/FFmpeg)
+
+- **O que faz e como usar com IA:** Mirror of https://git.ffmpeg.org/ffmpeg.git
+- **Fork de:** [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
+- **Detalhes:** [README](https://github.com/rosaldo/FFmpeg/blob/master/README.md)
+
 ### [flagr](https://github.com/rosaldo/flagr)
 
 - **O que faz e como usar com IA:** Microsserviço de feature flags, testes A/B e configuração dinâmica, consultado por uma API REST.
@@ -600,7 +606,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [mcp-3D-printer-server](https://github.com/rosaldo/mcp-3D-printer-server)
 
-- **O que faz e como usar com IA:** Connects MCP to major 3D printer APIs (Orca, FULU's Orca/Bambu, OctoPrint, Klipper, Duet, Repetier, Prusa, Creality). Control prints, monitor status, and perform advanced STL operations like scaling, rotation, sectional editing, and base extension. Includes slicing and visualization.
+- **O que faz e como usar com IA:** Servidor MCP que deixa o Claude, o Codex e outros agentes controlarem impressoras 3D com OctoPrint, Klipper (Moonraker), Duet, Repetier, Bambu Lab, Prusa e Creality: ver status e câmera, editar arquivos STL (escalar, girar, estender a base), fatiar com um fatiador instalado e iniciar impressões. Instale com `npx -y mcp-3d-printer-server` e informe tipo, endereço e chave da impressora. Licença GPL-2.0.
 - **Fork de:** [DMontgomery40/mcp-3D-printer-server](https://github.com/DMontgomery40/mcp-3D-printer-server)
 - **Detalhes:** [README](https://github.com/rosaldo/mcp-3D-printer-server/blob/main/README.md)
 
@@ -621,6 +627,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Banco de dados vetorial de alto desempenho e nativo da nuvem, para buscar dados não estruturados em escala. É o repositório vetorial por trás de RAG e memória de agentes, com integrações para LangChain, LlamaIndex, OpenAI e Hugging Face.
 - **Fork de:** [milvus-io/milvus](https://github.com/milvus-io/milvus)
 - **Detalhes:** [README](https://github.com/rosaldo/milvus/blob/master/README.md)
+
+### [modern-web-guidance](https://github.com/rosaldo/modern-web-guidance)
+
+- **O que faz e como usar com IA:** Keep your coding agent up to date with the latest web best practices
+- **Fork de:** [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance)
+- **Detalhes:** [README](https://github.com/rosaldo/modern-web-guidance/blob/main/README.md)
 
 ### [moonshine](https://github.com/rosaldo/moonshine)
 
@@ -1054,6 +1066,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **Fork de:** [wevm/viem](https://github.com/wevm/viem)
 - **Detalhes:** [README](https://github.com/rosaldo/viem/blob/main/README.md)
 
+### [VoiceStudio](https://github.com/rosaldo/VoiceStudio)
+
+- **O que faz e como usar com IA:** VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+- **Fork de:** [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
+- **Detalhes:** [README](https://github.com/rosaldo/VoiceStudio/blob/main/README.md)
+
 ## W
 
 ### [WA-AKG](https://github.com/rosaldo/WA-AKG)
@@ -1073,6 +1091,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** WanGP, app para modelos generativos de código aberto de vídeo, imagem, áudio e texto para fala em GPUs modestas (alguns modelos a partir de 6 GB de VRAM, Nvidia antigas e AMD). Inclui melhorador de prompt e o Deepy, agente offline que orquestra os trabalhos de geração.
 - **Fork de:** [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP)
 - **Detalhes:** [README](https://github.com/rosaldo/Wan2GP/blob/main/README.md)
+
+### [webbrain](https://github.com/rosaldo/webbrain)
+
+- **O que faz e como usar com IA:** Open-source AI browser agent for Chrome and Firefox (monorepo) 🧠 
+- **Fork de:** [webbrain-one/webbrain](https://github.com/webbrain-one/webbrain)
+- **Detalhes:** [README](https://github.com/rosaldo/webbrain/blob/main/README.md)
 
 ### [whaticket-community](https://github.com/rosaldo/whaticket-community)
 
@@ -1125,6 +1149,12 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 - **O que faz e como usar com IA:** Agente de IA auto-hospedado que opera um canal do YouTube de ponta a ponta: pesquisa temas, escreve roteiros, gera narração e imagens, monta MP4s e publica depois da sua aprovação. Roda na sua máquina com suas chaves (Gemini, OpenAI, OpenRouter, DeepSeek).
 - **Fork de:** [darkzOGx/youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent)
 - **Detalhes:** [README](https://github.com/rosaldo/youtube-automation-agent/blob/master/README.md)
+
+### [yt-dlp](https://github.com/rosaldo/yt-dlp)
+
+- **O que faz e como usar com IA:** A feature-rich command-line audio/video downloader
+- **Fork de:** [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- **Detalhes:** [README](https://github.com/rosaldo/yt-dlp/blob/master/README.md)
 
 ## Z
 
