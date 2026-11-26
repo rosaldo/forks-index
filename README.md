@@ -4,7 +4,7 @@
 
 [\[A\]](#a) [\[B\]](#b) [\[C\]](#c) [\[D\]](#d) [\[E\]](#e) [\[F\]](#f) [\[G\]](#g) [\[H\]](#h) [\[I\]](#i) [\[J\]](#j) [\[K\]](#k) [\[L\]](#l) [\[M\]](#m) [\[N\]](#n) [\[O\]](#o) [\[P\]](#p) [\[Q\]](#q) [\[R\]](#r) [\[S\]](#s) [\[T\]](#t) [\[U\]](#u) [\[V\]](#v) [\[W\]](#w) [\[X\]](#x) [\[Y\]](#y) [\[Z\]](#z) 
 
-An inventory of 184 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
+An inventory of 187 open source projects forked by [rosaldo](https://github.com/rosaldo), explained so you can tell what each one does and how to use it with an AI without opening it. It covers AI coding agents (Claude Code, Codex, Cursor, OpenCode), agent skills, MCP servers, LLM gateways, local LLM inference, RAG and document extraction, plus the tools around them.
 
 For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
@@ -15,12 +15,6 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Open-source music generation model that makes full songs from 10 seconds to 10 minutes on consumer hardware, with lyrics in 50+ languages, 1000+ styles, covers, repainting, stem separation and LoRA training. Install with uv on Python 3.11-3.12, then run the Gradio app on CUDA, Apple Silicon, AMD, Intel or CPU. MIT license.
 - **Forked from:** [ace-step/ACE-Step-1.5](https://github.com/ace-step/ACE-Step-1.5)
 - **Details:** [README](https://github.com/rosaldo/ACE-Step-1.5/blob/main/README.md)
-
-### [agency-agents](https://github.com/rosaldo/agency-agents)
-
-- **What it does and how to use it with AI:** Roster of specialized AI agent personas (frontend, marketing, QA, reality checker and more), each with its own processes and deliverables. Install them into Claude Code, Cursor, Codex or Gemini through the native app or the scripts, then call the agent you need by name.
-- **Forked from:** [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
-- **Details:** [README](https://github.com/rosaldo/agency-agents/blob/main/README.md)
 
 ### [agent-browser](https://github.com/rosaldo/agent-browser)
 
@@ -322,7 +316,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [FFmpeg](https://github.com/rosaldo/FFmpeg)
 
-- **What it does and how to use it with AI:** Mirror of https://git.ffmpeg.org/ffmpeg.git
+- **What it does and how to use it with AI:** Libraries and tools for processing audio, video, subtitles and related metadata: codecs, container formats, filters and scaling. Use the `ffmpeg` command to convert and stream media, `ffprobe` to inspect it and `ffplay` to play it, or link the libav* libraries into your own code.
 - **Forked from:** [FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
 - **Details:** [README](https://github.com/rosaldo/FFmpeg/blob/master/README.md)
 
@@ -630,7 +624,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [modern-web-guidance](https://github.com/rosaldo/modern-web-guidance)
 
-- **What it does and how to use it with AI:** Keep your coding agent up to date with the latest web best practices
+- **What it does and how to use it with AI:** Skills from the Chrome, Edge, Firefox and MDN teams that feed coding agents current web platform guides and browser compatibility data, so they use native APIs instead of legacy patterns. Install with `npx modern-web-guidance@latest install` (Node.js 22+), or use its `search`, `retrieve` and `legacy-scan` commands directly.
 - **Forked from:** [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance)
 - **Details:** [README](https://github.com/rosaldo/modern-web-guidance/blob/main/README.md)
 
@@ -653,6 +647,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **Details:** [README](https://github.com/rosaldo/motionmaxxing/blob/main/README.md)
 
 ## N
+
+### [NeoGoAgents](https://github.com/rosaldo/NeoGoAgents)
+
+- **What it does and how to use it with AI:** Roster of specialized AI agent personas (frontend, marketing, QA, reality checker and more), each with its own processes and deliverables. Install them into Claude Code, Cursor, Codex or Gemini through the native app or the scripts, then call the agent you need by name.
+- **Forked from:** [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+- **Details:** [README](https://github.com/rosaldo/NeoGoAgents/blob/main/README.md)
 
 ### [next-forge](https://github.com/rosaldo/next-forge)
 
@@ -715,6 +715,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** PDF parser for AI-ready data: extracts Markdown, JSON with bounding boxes and HTML, in a deterministic local mode or a hybrid mode with AI for complex pages. Filters hidden prompt injection attempts found in PDFs before they reach your LLM.
 - **Forked from:** [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)
 - **Details:** [README](https://github.com/rosaldo/opendataloader-pdf/blob/main/README.md)
+
+### [OpenFlow](https://github.com/rosaldo/OpenFlow)
+
+- **What it does and how to use it with AI:** OpenFlow — a visual builder for multi-agent AI workflows, built on the opencode engine
+- **Forked from:** [SeeRay11/OpenFlow](https://github.com/SeeRay11/OpenFlow)
+- **Details:** [README](https://github.com/rosaldo/OpenFlow/blob/dev/README.md)
 
 ### [OpenJarvis](https://github.com/rosaldo/OpenJarvis)
 
@@ -889,6 +895,12 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 - **What it does and how to use it with AI:** Reverse-engineers a video shot by shot: tells whether each shot was filmed, AI-generated or made in code and how to remake it, in an HTML/PDF report plus a VIDEO.md breakdown that agents can read. Ask Claude Code or Codex to install it and break down a video file; it needs ffmpeg and Python 3.10+.
 - **Forked from:** [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video)
 - **Details:** [README](https://github.com/rosaldo/rea-video/blob/main/README.md)
+
+### [refine](https://github.com/rosaldo/refine)
+
+- **What it does and how to use it with AI:** A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.
+- **Forked from:** [refinedev/refine](https://github.com/refinedev/refine)
+- **Details:** [README](https://github.com/rosaldo/refine/blob/main/README.md)
 
 ### [replica-skill](https://github.com/rosaldo/replica-skill)
 
@@ -1068,9 +1080,15 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [VoiceStudio](https://github.com/rosaldo/VoiceStudio)
 
-- **What it does and how to use it with AI:** VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+- **What it does and how to use it with AI:** Local AI voice studio for voice cloning, voice design, video dubbing, dictation, transcription and audiobooks, with engines downloaded as needed through a model manager. Install the desktop app with Homebrew, the installer or the one-line script; it also exposes a local API and MCP.
 - **Forked from:** [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
 - **Details:** [README](https://github.com/rosaldo/VoiceStudio/blob/main/README.md)
+
+### [vphone-ws](https://github.com/rosaldo/vphone-ws)
+
+- **What it does and how to use it with AI:** A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.
+- **Forked from:** [zqxwce/vphone-ws](https://github.com/zqxwce/vphone-ws)
+- **Details:** [README](https://github.com/rosaldo/vphone-ws/blob/main/README.md)
 
 ## W
 
@@ -1094,7 +1112,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [webbrain](https://github.com/rosaldo/webbrain)
 
-- **What it does and how to use it with AI:** Open-source AI browser agent for Chrome and Firefox (monorepo) 🧠 
+- **What it does and how to use it with AI:** Browser extension for Chrome, Firefox and Edge that puts an AI agent in a side panel to answer questions about the page or click, type and navigate to finish tasks. Install it from the extension stores or load it from source, then pick the model: the built-in default, a local llama.cpp or Ollama server, or a cloud API.
 - **Forked from:** [webbrain-one/webbrain](https://github.com/webbrain-one/webbrain)
 - **Details:** [README](https://github.com/rosaldo/webbrain/blob/main/README.md)
 
@@ -1152,7 +1170,7 @@ For LLMs and crawlers: [llms.txt](llms.txt) has this list in a compact form.
 
 ### [yt-dlp](https://github.com/rosaldo/yt-dlp)
 
-- **What it does and how to use it with AI:** A feature-rich command-line audio/video downloader
+- **What it does and how to use it with AI:** Command-line audio and video downloader that supports thousands of sites, a fork of youtube-dl. Install the standalone binary for Windows, Linux or macOS, or the PyPI package, then run `yt-dlp <URL>` with options for format selection, subtitles, metadata and post-processing.
 - **Forked from:** [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - **Details:** [README](https://github.com/rosaldo/yt-dlp/blob/master/README.md)
 
