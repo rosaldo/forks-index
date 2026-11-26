@@ -718,7 +718,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [OpenFlow](https://github.com/rosaldo/OpenFlow)
 
-- **O que faz e como usar com IA:** OpenFlow — a visual builder for multi-agent AI workflows, built on the opencode engine
+- **O que faz e como usar com IA:** Construtor visual de fluxos de IA com vários agentes: arraste cartões para a tela, monte um pipeline (planejador → arquiteto → programador) e rode com agentes paralelos. Seu código fica em packages/flow, sobre o engine do OpenCode; instale com Bun e suba tudo com um comando só.
 - **Fork de:** [SeeRay11/OpenFlow](https://github.com/SeeRay11/OpenFlow)
 - **Detalhes:** [README](https://github.com/rosaldo/OpenFlow/blob/dev/README.md)
 
@@ -898,7 +898,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [refine](https://github.com/rosaldo/refine)
 
-- **O que faz e como usar com IA:** A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.
+- **O que faz e como usar com IA:** Meta-framework React headless para CRUDs corporativos: ferramentas internas, painéis, dashboards e produtos B2B. Hooks resolvem autenticação, permissões, rotas, dados, estado e i18n sem prender a regra de negócio à interface. Use seu design ou Ant Design, MUI, Mantine e Chakra.
 - **Fork de:** [refinedev/refine](https://github.com/refinedev/refine)
 - **Detalhes:** [README](https://github.com/rosaldo/refine/blob/main/README.md)
 
@@ -1086,7 +1086,7 @@ Para LLMs e robôs de busca: o [llms.txt](llms.txt) traz esta lista em forma com
 
 ### [vphone-ws](https://github.com/rosaldo/vphone-ws)
 
-- **O que faz e como usar com IA:** A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.
+- **O que faz e como usar com IA:** App macOS para gerenciar iPhones virtuais: navegue pelas VMs iOS de pesquisa, crie com um assistente (variante, firmware, CPU, memória e disco) e inicie, pare, clone ou exporte em uma janela. Interface SwiftUI para o vphone-cli; exige Apple Silicon e macOS 15+, instala via brew.
 - **Fork de:** [zqxwce/vphone-ws](https://github.com/zqxwce/vphone-ws)
 - **Detalhes:** [README](https://github.com/rosaldo/vphone-ws/blob/main/README.md)
 
